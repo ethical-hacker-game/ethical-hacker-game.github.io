@@ -1,4 +1,4 @@
-const cacheName = "Ersin Dincelli-EthicalHacker-0.1";
+const cacheName = "Ersin Dincelli-EthicalHacker-0.2";
 const contentToCache = [
     "Build/Build_WebGL.loader.js",
     "Build/Build_WebGL.framework.js",
