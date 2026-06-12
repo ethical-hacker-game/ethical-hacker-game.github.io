@@ -1,9 +1,9 @@
 const cacheName = "Ersin Dincelli-EthicalHacker-0.2";
 const contentToCache = [
-    "Build/Build_WebGL.loader.js",
-    "Build/Build_WebGL.framework.js",
-    "Build/Build_WebGL.data",
-    "Build/Build_WebGL.wasm",
+    "Build/Build_WebGL_2026-06-11.loader.js",
+    "Build/Build_WebGL_2026-06-11.framework.js",
+    "Build/Build_WebGL_2026-06-11.data",
+    "Build/Build_WebGL_2026-06-11.wasm",
     "TemplateData/style.css"
 
 ];

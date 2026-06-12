@@ -1,0 +1,28 @@
+Quest #	Topic	Quest Name
+Quest 1:	Cyber Kill Chain	U1Q1_CyberKillChainStart
+Quest 2:	Passive footprinting: Google Hacking	U1Q2_GoogleHacking
+Quest 3:	Passive footprinting: using search engines	U1Q3_SearchEngines
+Quest 4:	Passive footprinting: through social media	U1Q4_SocialMedia
+Quest 5:	Passive footprinting: through web services	U1Q5_QueryPublishedNameServersDIG
+Quest 6:	Active footprinting: Web Spider/Crawler	U1Q6_WebSpider
+Quest 7:	Active footprinting: Domain Name System (DNS) Footprinting	U1Q7_DNSdumpster
+Quest 8:	Active footprinting: WHOIS Lookups	U1Q8_WHOIS
+Quest 9:	Active footprinting: Email footprinting	U1Q9_EmailFootprinting
+Quest 10:	Active footprinting: Network Scanning	U1U10_Nmap
+Quest 11:	Human-Based Recon / ( Passive ?): Public Available Information 	U1Q11_PubliclyAvailableInformation
+Quest 12:	Dark Web and Underground Forums	U1Q12_DarkWeb
+Quest 13:	Active footprinting: Packet Sniffing 	U1Q13_PacketSniffing
+Quest 14:	Human-Based Recon: Dumpster Diving 	U1U14_DumpsterDiving
+Quest 15:	Passive footprinting: WebsiteMirroring	U1Q15_WebsiteMirroring
+Quest 16:	Active footprinting: Netcraft	U1Q16_Netcraft
+Quest 18: 	Open-source Intelligence (OSINT)	U1Q18_OSINT
+Quest 19:	Passive footprinting: Sherlock	U1Q19_Sherlock
+Quest 20:	Active footprinting: Nslookup	U1Q20_nslookup
+Quest 22:	Corporate Espionage 	U1Q22_CorporateEspionage
+Quest 23:	Advanced Persistant Threat (APT)	U1Q23_APT
+Quest 24:	SHODAN	U1Q24_SHODAN
+Quest 25:	Active footprinting: HTTP Header Grabber 	U1Q25_HTTPHeaderGrabber
+Quest 26:	Passive footprinting: Wayback Machine	U1Q26_WaybackMachine
+Quest 27:	Human-Based Recon: Phishing 	U1Q27_Phishing
+Quest 28:	Human-Based Recon: Shoulder surfing 	U1Q28_ShoulderSurfing
+Quest 29:	Ping (maybe active)	U1Q29_Ping

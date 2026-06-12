@@ -1,9 +1,23 @@
-﻿{
+{
   "id": "02_social",
   "contentPackId": "BaseContent",
   "name": "2. Social Engineering",
   "description": null,
   "stages": [
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q01_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, soft one to warm up on. A civilian clicked a fake bank alert on her phone and now she's paranoid about every app she's installed. You own the mobile beat -- walk her through it.",
+      "stageType": 0
+    },
+    {
+      "characterSpriteId": "npc_m_01",
+      "id": "U02Q01_STAGE_00B",
+      "characterName": "Jax",
+      "stageText": "On it, Cipher. Mobile scams like this are ninety percent panic and ten percent payload -- the fix usually starts with slowing the victim down. Let me see what she actually clicked.",
+      "stageType": 0
+    },
     {
       "moneyReward": 50,
       "legendReward": 10,
@@ -13,14 +27,14 @@
         "People react faster to mobile notifications, leaving less time for critical thinking.",
         "Mobile browsers are more vulnerable to SQL injection."
       ],
-      "incorrectAnswerText": "Not quite. It's the psychological aspectâ€”the 'ping' on a phone creates a sense of urgency that a PC email usually doesn't.",
+      "incorrectAnswerText": "Not quite. It's the psychological aspect. The 'ping' on a phone creates a sense of urgency that a PC email usually doesn't.",
       "id": "U02Q01_STAGE_01",
       "characterName": "Jax",
       "stageText": "Hey! You got a sec? I'm helping my cousin clean up her phone after she clicked on some sketchy bank alert. It's crazy how many people fall for these mobile scams lately. Why do you think attackers are moving away from PCs and hitting phones so hard instead?",
       "stageType": 2
     },
     {
-      "characterSpriteId": "",
+      "characterSpriteId": "npc_m_01",
       "id": "U02Q01_STAGE_02",
       "characterName": "Jax",
       "stageText": "Exactly. The smaller screen also hides full URLs, which makes it way easier to spoof a login page. Anyway, she's worried about more than just texts now. She saw something about 'fake apps' on the news. I need to explain to her that it's not just SMS anymore.",
@@ -92,6 +106,13 @@
       "characterName": "Jax",
       "stageText": "Last thing: she asked for one 'golden rule' for the future. What's the best habit she can adopt starting today?",
       "stageType": 2
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q02_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, contract just landed from IronTrust, a local bank. Their staff got hammered by a payroll text scam and a few already typed in their credentials. Smishing cleanup, your specialty. Go.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -166,6 +187,13 @@
       "characterName": "Jax",
       "stageText": "Exactly, forcing the password reset and pushing MFA is the only way to lock out attackers who already have the credentials. The bank management is incredibly grateful, but they want to make sure this doesn't happen again next month. What's our best long-term solution for them?",
       "stageType": 2
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q03_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, drop everything. Riley from the junior bench is live on the phone with a fake 'TechPro Support' rep talking him into remote access right now. Voice scam in progress -- you're closest. Move.",
+      "stageType": 0
     },
     {
       "moneyReward": 50,
@@ -250,6 +278,13 @@
       "stageType": 1
     },
     {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q04_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, low stakes but instructive. Someone's getting love-bombed by a 'celebrity' DM that reeks of impersonation. Take a look before they hand anything over.",
+      "stageType": 0
+    },
+    {
       "moneyReward": 50,
       "legendReward": 10,
       "correctAnswerIndex": 1,
@@ -259,10 +294,10 @@
         "The scammer posts completely different content, like crypto links, on their main feed.",
         "The real Nia doesn't follow this specific account back."
       ],
-      "incorrectAnswerText": "Look closely at the handle. Scammers love typosquattingâ€”adding a small dot, underscore, or swapping an 'l' for a '1' to trick you at first glance.",
+      "incorrectAnswerText": "Look closely at the handle. Scammers love typosquatting, adding a small dot, underscore, or swapping an 'l' for a '1' to trick you at first glance.",
       "id": "U02Q04_STAGE_01",
       "characterName": "Jax",
-      "stageText": "Hey, I'm just taking a quick break from coding and checking my phone. You won't believe thisâ€”I just got a DM from Nia, that massive fashion influencer with over 200K followers! I mean, I have style, but why would a huge celebrity account message a tech nerd like me out of nowhere? I'm looking at the profile that sent the message right now. What's the biggest red flag I should look for to prove this is a social media impersonation scam?",
+      "stageText": "Hey, I'm just taking a quick break from coding and checking my phone. You won't believe this, I just got a DM from Nia, that massive fashion influencer with over 200K followers! I mean, I have style, but why would a huge celebrity account message a tech nerd like me out of nowhere? I'm looking at the profile that sent the message right now. What's the biggest red flag I should look for to prove this is a social media impersonation scam?",
       "stageType": 2
     },
     {
@@ -308,6 +343,13 @@
       "stageType": 1
     },
     {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q05_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, Maplewood grocery just signed us. Their new loyalty app is lagging phones and throwing pop-ups. Smells like a repackaged build -- it's a mobile job, it's yours.",
+      "stageType": 0
+    },
+    {
       "moneyReward": 100,
       "legendReward": 15,
       "correctAnswerIndex": 2,
@@ -320,7 +362,7 @@
       "incorrectAnswerText": "Think like a hacker. Excessive, unnecessary permissions are a massive red flag that the app has been compromised and repackaged to spy on users.",
       "id": "U02Q05_STAGE_01",
       "characterName": "Jax",
-      "stageText": "Hey! We just landed a gig for 'Maplewood', that popular local grocery store chain. They recently launched a loyalty mobile app, but customers are reporting some really creepy behaviorâ€”phones lagging, weird pop-ups, and battery drain. I just pulled the app's manifest file to check its requested permissions. It's asking for precise GPS location, full contact lists, and SMS access. For a grocery shopping list app? What do you think is going on here?",
+      "stageText": "Hey! We just landed a gig for 'Maplewood', that popular local grocery store chain. They recently launched a loyalty mobile app, but customers are reporting some really creepy behavior: phones lagging, weird pop-ups, and battery drain. I just pulled the app's manifest file to check its requested permissions. It's asking for precise GPS location, full contact lists, and SMS access. For a grocery shopping list app? What do you think is going on here?",
       "stageType": 2
     },
     {
@@ -380,6 +422,13 @@
       "characterName": "Jax",
       "stageText": "Perfect. Advizory sent. Maplewood is already putting out an official statement telling their customers to only download the app from Google Play and the Apple App Store, and they are implementing code signing checks. We did a great job cleaning up this mess!",
       "stageType": 1
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q06_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, critical incident at NovaFusion. A lead dev's number got ported out from under him and password resets are firing across their repos. SIM-swap response, take point.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -470,6 +519,13 @@
       "stageType": 1
     },
     {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q07_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, the City Museum's support line is melting down. Visitors are seeing bank charges after scanning codes around the exhibit. Rogue QR angle -- get on site.",
+      "stageType": 0
+    },
+    {
       "moneyReward": 50,
       "legendReward": 10,
       "correctAnswerIndex": 2,
@@ -479,10 +535,10 @@
         "QR Code Phishing (Quishing)",
         "Watering Hole Attack"
       ],
-      "incorrectAnswerText": "This is a textbook case of Quishingâ€”using malicious QR codes to redirect mobile users to fraudulent or phishing destinations.",
+      "incorrectAnswerText": "This is a textbook case of Quishing, using malicious QR codes to redirect mobile users to fraudulent or phishing destinations.",
       "id": "U02Q07_STAGE_01",
       "characterName": "Jax",
-      "stageText": "You won't believe where I amâ€”the local City Museum! They just hosted a huge tech exhibit, but now their support line is blowing up. Visitors are reporting unauthorized bank charges and strange login requests right after browsing the venue. I walked around the exhibition floor and noticed rogue QR codes pasted on benches, information kiosks, and signs promoting 'exclusive future event content.' What kind of mobile attack vector are we looking at here?",
+      "stageText": "You won't believe where I am, the local City Museum! They just hosted a huge tech exhibit, but now their support line is blowing up. Visitors are reporting unauthorized bank charges and strange login requests right after browsing the venue. I walked around the exhibition floor and noticed rogue QR codes pasted on benches, information kiosks, and signs promoting 'exclusive future event content.' What kind of mobile attack vector are we looking at here?",
       "stageType": 2
     },
     {
@@ -535,10 +591,10 @@
         "True",
         "False"
       ],
-      "incorrectAnswerText": "It's False! A QR code is just encoded text or a standard URL. The code itself isn't a hardware exploit; the danger comes from what the link points toâ€”like fake phishing portals or automated malware drive-by downloads.",
+      "incorrectAnswerText": "It's False! A QR code is just encoded text or a standard URL. The code itself isn't a hardware exploit; the danger comes from what the link points to, like fake phishing portals or automated malware drive-by downloads.",
       "id": "U02Q07_STAGE_05",
       "characterName": "Jax",
-      "stageText": "That makes complete sense. One of the tour guides just mentioned something interesting. She thought QR codes themselves were fundamentally unsafe and should be banned. Let's clear up this technical misconception for her: True or Falseâ€”are QR codes inherently dangerous, meaning security risks only happen when they are paired with a malicious app exploit?",
+      "stageText": "That makes complete sense. One of the tour guides just mentioned something interesting. She thought QR codes themselves were fundamentally unsafe and should be banned. Let's clear up this technical misconception for her: True or False: are QR codes inherently dangerous, meaning security risks only happen when they are paired with a malicious app exploit?",
       "stageType": 2
     },
     {
@@ -560,19 +616,26 @@
       "stageType": 1
     },
     {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q08_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, PixelNest designers got swarmed with AirDrop pop-ups in a cafe, all pushing a file called 'confidential_client_assets.zip'. Proximity attack, mobile turf. Yours.",
+      "stageType": 0
+    },
+    {
       "moneyReward": 100,
       "legendReward": 15,
       "correctAnswerIndex": 1,
       "answers": [
-        "BlueSnarfing â€“ forcibly pairing with a device to steal its internal data.",
-        "Bluejacking â€“ sending unsolicited messages or files over Bluetooth or local wireless protocols.",
-        "DNS Hijacking â€“ manipulating network settings to redirect traffic to a fake domain.",
-        "Rogue AP â€“ deploying a spoofed wireless access point to capture user traffic."
+        "BlueSnarfing: forcibly pairing with a device to steal its internal data.",
+        "Bluejacking: sending unsolicited messages or files over Bluetooth or local wireless protocols.",
+        "DNS Hijacking: manipulating network settings to redirect traffic to a fake domain.",
+        "Rogue AP: deploying a spoofed wireless access point to capture user traffic."
       ],
       "incorrectAnswerText": "This isn't forceful data theft or network spoofing. It's Bluejacking, which focuses on spamming unsolicited content or file requests directly to nearby discoverable devices.",
       "id": "U02Q08_STAGE_01",
       "characterName": "Jax",
-      "stageText": "Hey! A friend of mine over at 'PixelNest', a local digital design studio, just pinged me about a really weird situation. A bunch of their designers were working out of a crowded downtown cafĂ© today when their phones suddenly started blowing up with pop-ups. Someone was trying to share a file called 'confidential_client_assets.zip' via AirDrop and Quick Share. Nobody knew the sender, but the name of the file looked incredibly alarming to them. Since this is a proximity-based file-sharing attack happening in a public space, what is the technical term for this behavior?",
+      "stageText": "Hey! A friend of mine over at 'PixelNest', a local digital design studio, just pinged me about a really weird situation. A bunch of their designers were working out of a crowded downtown café today when their phones suddenly started blowing up with pop-ups. Someone was trying to share a file called 'confidential_client_assets.zip' via AirDrop and Quick Share. Nobody knew the sender, but the name of the file looked incredibly alarming to them. Since this is a proximity-based file-sharing attack happening in a public space, what is the technical term for this behavior?",
       "stageType": 2
     },
     {
@@ -634,6 +697,13 @@
       "stageType": 1
     },
     {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q09_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, a boutique owner and his assistant woke up to a fake 'urgent client meeting' injected straight into their calendars. Calendar phishing -- take it.",
+      "stageType": 0
+    },
+    {
       "moneyReward": 50,
       "legendReward": 10,
       "correctAnswerIndex": 2,
@@ -676,7 +746,7 @@
       "incorrectAnswerText": "A legitimate calendar notification for a meeting will never force you to log in or verify your security credentials through an external link in the description field.",
       "id": "U02Q09_STAGE_03",
       "characterName": "Jax",
-      "stageText": "Right, no platform is completely immune if the settings are wrong. Now, looking at the link inside that calendar inviteâ€”it opens up a page that looks exactly like their official email provider's login portal, trying to capture their passwords. When analyzing this specific calendar event, which detail stands out as the ultimate operational red flag of a social engineering attack?",
+      "stageText": "Right, no platform is completely immune if the settings are wrong. Now, looking at the link inside that calendar invite, it opens up a page that looks exactly like their official email provider's login portal, trying to capture their passwords. When analyzing this specific calendar event, which detail stands out as the ultimate operational red flag of a social engineering attack?",
       "stageType": 2
     },
     {
@@ -724,6 +794,13 @@
       "stageType": 1
     },
     {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q10_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, a teacher named Wren has a classroom full of kids getting accounts popped through a mobile game promising free gems. Baiting case, you're up.",
+      "stageType": 0
+    },
+    {
       "moneyReward": 100,
       "legendReward": 15,
       "correctAnswerIndex": 2,
@@ -733,7 +810,7 @@
         "Baiting",
         "Tailgating"
       ],
-      "incorrectAnswerText": "This is a classic case of Baiting. The attackers are dangling a high-value incentiveâ€”free premium gaming gemsâ€”to lure students into exposing their sensitive credentials.",
+      "incorrectAnswerText": "This is a classic case of Baiting. The attackers are dangling a high-value incentive, free premium gaming gems, to lure students into exposing their sensitive credentials.",
       "id": "U02Q10_STAGE_01",
       "characterName": "Jax",
       "stageText": "Hey! Wren, a high school teacher I know, just reached out to me with a massive headache. A ton of his students have suddenly had their personal emails and gaming accounts compromised. He discovered they are all hooked on this trendy new mobile game called 'Treasure Rage.' The kids claim the game has pop-ups promising massive amounts of free in-game premium currency. I just downloaded the APK into a secure sandbox to check it out. After two minutes, a flashy banner popped up: '10,000 free gems for loyal players! Verify your account now!' What social engineering technique is this application using?",
@@ -750,7 +827,7 @@
       "incorrectAnswerText": "It's False! Anyone can copy images and CSS code to make a fake site look incredibly professional. The only real indicator of identity is the verified domain name in the address bar.",
       "id": "U02Q10_STAGE_02",
       "characterName": "Jax",
-      "stageText": "Exactly, it's baiting. I'm analyzing the network traffic generated by that 'account verification' button inside the game. It redirects to an external web form that looks identical to the official developer's login portal, but it's hosted on a completely different domain name. One of Wren's students is looking at it right now and says: 'But the design looks so professional and clean, it has to be official!' Let's correct this misconception: True or Falseâ€”does a professional and polished website design guarantee that a page is secure and legitimate?",
+      "stageText": "Exactly, it's baiting. I'm analyzing the network traffic generated by that 'account verification' button inside the game. It redirects to an external web form that looks identical to the official developer's login portal, but it's hosted on a completely different domain name. One of Wren's students is looking at it right now and says: 'But the design looks so professional and clean, it has to be official!' Let's correct this misconception: True or False: does a professional and polished website design guarantee that a page is secure and legitimate?",
       "stageType": 2
     },
     {
@@ -789,10 +866,10 @@
         "Android security system updates automatically analyze and block all fake in-app links.",
         "Only jailbroken or rooted mobile devices are vulnerable to credential phishing."
       ],
-      "incorrectAnswerText": "Platform security doesn't matter here. Social engineering targets human behaviorâ€”if a user willingly types their password into a fake box, no operating system sandbox can stop that data from leaving.",
+      "incorrectAnswerText": "Platform security doesn't matter here. Social engineering targets human behavior. If a user willingly types their password into a fake box, no operating system sandbox can stop that data from leaving.",
       "id": "U02Q10_STAGE_05",
-      "characterName": "Jax",
-      "stageText": "Perfect. Another student just asked a great question on the school forum. He wants to know if switching from an Android device to an iPhone would protect him from this, since he heard iOS has tighter security restrictions. How should we explain this accurately?",
+      "characterName": "Priya",
+      "stageText": "Hey, Priya here -- I'm helping moderate Wren's class chat. One of the students just asked me whether switching from Android to an iPhone would keep him safe from this, since he heard iOS is locked down tighter. I want to give him a straight answer. How should I explain it?",
       "stageType": 2
     },
     {
@@ -821,6 +898,13 @@
       "stageType": 3
     },
     {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q11_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, you're already in the field on this one. Coffee shop Wi-Fi is throwing fake 'your device is at risk' pop-ups pushing a VPN app. Have a look while you're there.",
+      "stageType": 0
+    },
+    {
       "moneyReward": 50,
       "legendReward": 10,
       "correctAnswerIndex": 1,
@@ -847,7 +931,7 @@
       "incorrectAnswerText": "Leaving the app on the phone is extremely dangerous. He needs to immediately revoke those dangerous permissions, wipe the app from the device, and scan for any residual malware.",
       "id": "U02Q11_STAGE_02",
       "characterName": "Jax",
-      "stageText": "Exactly. It's an old scareware trick to bypass our critical thinking. But get thisâ€”literally two minutes after I saw this, a guy sitting at the table next to me started complaining that his phone is overheating and battery is draining like crazy. I struck up a conversation, and it turns out he fell for a similar alert yesterday, downloaded the app, and blindly granted it 'Accessibility Services' permissions. What should we tell him to do right now to control the damage?",
+      "stageText": "Exactly. It's an old scareware trick to bypass our critical thinking. But get this, literally two minutes after I saw this, a guy sitting at the table next to me started complaining that his phone is overheating and battery is draining like crazy. I struck up a conversation, and it turns out he fell for a similar alert yesterday, downloaded the app, and blindly granted it 'Accessibility Services' permissions. What should we tell him to do right now to control the damage?",
       "stageType": 2
     },
     {
@@ -893,6 +977,13 @@
       "characterName": "Jax",
       "stageText": "He completely understands now. He promised to never download utility apps from browser pop-ups again and even offered to buy us a premium coffee combo for saving his private corporate emails from being harvested. How do you want to handle this casual freelance win?",
       "stageType": 1
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q12_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, Virtual Systems just kitted out their whole team with new phones and now someone's cold-calling them about expired 'warranty'. Mobile scam, take the lead.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -969,6 +1060,13 @@
       "stageType": 1
     },
     {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q13_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, Lumen Media has a creator getting stalked at her home address with no account breach in sight. Smells like leaked metadata. Quiet one -- handle it carefully.",
+      "stageType": 0
+    },
+    {
       "moneyReward": 100,
       "legendReward": 15,
       "correctAnswerIndex": 2,
@@ -981,7 +1079,7 @@
       "incorrectAnswerText": "Think technically about mobile cameras. By default, smartphone cameras embed precise GPS coordinates into the image's EXIF metadata, which can easily be scraped if the file is uploaded raw.",
       "id": "U02Q13_STAGE_01",
       "characterName": "Jax",
-      "stageText": "Hey! I just got a frantic call from the manager at 'Lumen Media'â€”it's a startup that handles up-and-coming social media influencers. One of their top creators, Jules, just had her private home address leaked online, and stalkers are literally showing up at her door. The agency did a full audit and confirmed none of her account passwords were breached. I'm looking at her latest public mobile upload right nowâ€”a high-res selfie taken in her living room. If her accounts are secure, what is the most likely way the attackers discovered her exact GPS coordinates?",
+      "stageText": "Hey! I just got a frantic call from the manager at 'Lumen Media', it's a startup that handles up-and-coming social media influencers. One of their top creators, Jules, just had her private home address leaked online, and stalkers are literally showing up at her door. The agency did a full audit and confirmed none of her account passwords were breached. I'm looking at her latest public mobile upload right now, a high-res selfie taken in her living room. If her accounts are secure, what is the most likely way the attackers discovered her exact GPS coordinates?",
       "stageType": 2
     },
     {
@@ -1039,7 +1137,7 @@
       ],
       "id": "U02Q13_STAGE_05",
       "characterName": "Jax",
-      "stageText": "Perfect. Now, about that shared corporate cloud storage folder where creators back up their mediaâ€”the manager wants a long-term architecture fix for the company's internal workflow. What is our best professional advice for them?",
+      "stageText": "Perfect. Now, about that shared corporate cloud storage folder where creators back up their media, the manager wants a long-term architecture fix for the company's internal workflow. What is our best professional advice for them?",
       "stageType": 1
     },
     {
@@ -1048,6 +1146,13 @@
       "characterName": "Jax",
       "stageText": "Agreed, automated server-side stripping combined with proper user training completely eliminates the threat without destroying their content pipeline. You handled this doxing incident like an absolute pro. This whole case proves how vital metadata analysis is in modern threat intel. I've built a brand new training regimen based on our findings. Ready to master it?",
       "stageType": 3
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q14_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, PumpPlus has a cloned copy of their rewards app in the wild charging hidden fees. Repackaging forensics, your wheelhouse.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -1062,7 +1167,7 @@
       "incorrectAnswerText": "Look at the cryptography! A fake clone might mirror the visuals perfectly, but it can never replicate the original developer's private code-signing certificate and unique digital signature.",
       "id": "U02Q14_STAGE_01",
       "characterName": "Jax",
-      "stageText": "Hey! I just got a frantic message from the IT director at 'PumpPlus'â€”that big local gas station chain. Their customers are panicking because they found a duplicate of their official loyalty rewards app floating around online. It looks absolutely identical down to the logo, splash screen, and interface. However, customers who downloaded it are reporting hidden fees and demands for sketchy private data. From a forensic standpoint, what is the definitive technical red flag that proves an app is a complete malicious clone rather than just a simple update?",
+      "stageText": "Hey! I just got a frantic message from the IT director at 'PumpPlus', that big local gas station chain. Their customers are panicking because they found a duplicate of their official loyalty rewards app floating around online. It looks absolutely identical down to the logo, splash screen, and interface. However, customers who downloaded it are reporting hidden fees and demands for sketchy private data. From a forensic standpoint, what is the definitive technical red flag that proves an app is a complete malicious clone rather than just a simple update?",
       "stageType": 2
     },
     {
@@ -1131,6 +1236,13 @@
       "stageType": 3
     },
     {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q15_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Jax, a neighborhood community board app got hijacked with a fake cash giveaway and people are pouring in personal data. Baiting cleanup -- close it out.",
+      "stageType": 0
+    },
+    {
       "moneyReward": 100,
       "legendReward": 15,
       "correctAnswerIndex": 1,
@@ -1140,7 +1252,7 @@
         "Quid pro quo",
         "Typosquatting"
       ],
-      "incorrectAnswerText": "This is a prime example of Baiting. The hacker dangles an exciting, high-value incentiveâ€”a fake exclusive prizeâ€”to exploit people's excitement and make them take immediate, risky actions.",
+      "incorrectAnswerText": "This is a prime example of Baiting. The hacker dangles an exciting, high-value incentive, a fake exclusive prize, to exploit people's excitement and make them take immediate, risky actions.",
       "id": "U02Q15_STAGE_01",
       "characterName": "Jax",
       "stageText": "Hey! I just got a call from the local event coordination team. They run that popular community board mobile app where neighbors share local news. Someone managed to post a high-profile announcement promoting an 'exclusive community giveaway' with a link to claim a massive cash prize. The language is super hyped up, and the link domain looks incredibly sketchy, but people are falling for it left and right because it's posted inside their trusted app. What specific social engineering tactic did the attacker weaponize here to lure mobile users?",
@@ -1212,6 +1324,20 @@
       "stageType": 3
     },
     {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q16_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Mira, this one's psychological, so it's yours. A research lab opened a file named 'confidential_staff_layoffs.doc' out of pure dread and tripped a malware payload. Dig into why they clicked.",
+      "stageType": 0
+    },
+    {
+      "characterSpriteId": "npc_f_01",
+      "id": "U02Q16_STAGE_00B",
+      "characterName": "Mira",
+      "stageText": "Got it. People don't open bad files because they're careless -- they open them because the attacker found the right nerve to press. Let me work out which one this lab walked into.",
+      "stageType": 0
+    },
+    {
       "moneyReward": 100,
       "legendReward": 15,
       "correctAnswerIndex": 1,
@@ -1223,7 +1349,7 @@
       ],
       "incorrectAnswerText": "This is a classic exploitation of Curiosity and anxiety. Attackers use provocative, high-stakes filenames to trigger the human urge to uncover hidden information, causing victims to bypass standard caution.",
       "id": "U02Q16_STAGE_01",
-      "characterName": "Jax",
+      "characterName": "Mira",
       "stageText": "You free? I'm staring at a total nightmare over at this high-profile research lab. Several of their researchers just noticed heavy network anomalies after opening a file found on their shared internal server. The file was simply named 'confidential_staff_layoffs.doc'. When I interviewed the staff, they admitted they clicked it because they were terrified about their job security and wanted to see if their names were on the list. What specific psychological vulnerability did the attacker exploit here?",
       "stageType": 2
     },
@@ -1237,8 +1363,8 @@
       ],
       "incorrectAnswerText": "It's completely False! Compromised internal accounts (lateral movement) are one of the most common ways attackers spread malware inside an organization. Every unsolicited file must be treated with suspicion.",
       "id": "U02Q16_STAGE_02",
-      "characterName": "Jax",
-      "stageText": "Exactly. Curiosity killed the cat, and in this case, it almost killed the lab's network. I managed to extract the server logs to see where that document actually came from. It turns out the document was uploaded via an unverified internal account that had its credentials compromised earlier. One of the researchers just asked: 'But if it came from an internal corporate account, shouldn't we automatically trust that the file is safe?' Let's correct this dangerous assumption: True or Falseâ€”can we safely trust unsolicited files just because they originate from an internal company account?",
+      "characterName": "Priya",
+      "stageText": "Mira, Priya on the lab interviews. One of the researchers pushed back on me -- he says if the file came from an internal company account, they should be able to trust it's safe. True or false, so I can set him straight?",
       "stageType": 2
     },
     {
@@ -1247,7 +1373,7 @@
       "locationId": "LAB_MALWARE_C2_NODE",
       "iconId": "",
       "id": "U02Q16_STAGE_03",
-      "characterName": "Jax",
+      "characterName": "Mira",
       "stageText": "Right on, zero trust is the only way to survive. I ran a dynamic sandbox analysis on that 'confidential_staff_layoffs.doc' file, and the moment it was opened, it executed a macro that established a reverse shell connection to a command-and-control server. I've intercepted the host IP address. Let's tag its location on our threat map immediately.",
       "stageType": 4
     },
@@ -1261,9 +1387,9 @@
         "Staff must be trained never to open unsolicited or unexpected files, even if they appear to come from an internal source, without independent verification.",
         "The organization should permanently ban all cross-departmental file sharing."
       ],
-      "incorrectAnswerText": "The solution is verification! Training staff to never open unexpected files blindlyâ€”even from internal colleaguesâ€”stops the initial execution chain of the attack.",
+      "incorrectAnswerText": "The solution is verification! Training staff to never open unexpected files blindly, even from internal colleagues, stops the initial execution chain of the attack.",
       "id": "U02Q16_STAGE_04",
-      "characterName": "Jax",
+      "characterName": "Mira",
       "stageText": "Location mapped. The lab's management is gathered around me right now. They want to know what the best security training takeaway is to prevent their employees from falling for these curiosity-driven internal traps in the future. What should we advise them to put in their mandatory training module?",
       "stageType": 2
     },
@@ -1281,9 +1407,164 @@
         }
       ],
       "id": "U02Q16_STAGE_05",
-      "characterName": "Jax",
+      "characterName": "Mira",
       "stageText": "Perfect. The management is implementing the new training protocol immediately and they are locking down macro executions across the entire domain. They are incredibly impressed with our response speed and want to clear today's invoice with an extra bonus for our threat intelligence team. How do you want to close this case?",
       "stageType": 1
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q17_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Mira, an accounting firm got blanketed with 'legal action in 24 hours' threats and some staff already paid a fake fine. This is fear engineering, exactly your field. Take it.",
+      "stageType": 0
+    },
+    {
+      "moneyReward": 100,
+      "legendReward": 15,
+      "correctAnswerIndex": 1,
+      "answers": [
+        "Curiosity about confidential records",
+        "Fear of legal and financial consequences",
+        "A desire to belong to an exclusive group",
+        "Simple boredom during the workday"
+      ],
+      "incorrectAnswerText": "It's Fear. Threats of arrest, fines, or public exposure flood the victim with stress, and a frightened person stops verifying and starts complying.",
+      "id": "U02Q17_STAGE_01",
+      "characterName": "Mira",
+      "stageText": "I've got the accounting firm on the line. Their people received emails and texts claiming they're personally named in a tax-fraud investigation, with a 'police referral within 24 hours' unless they 'settle' through a linked portal. Several staff panicked and paid. Before we talk fixes -- what core human vulnerability is the attacker weaponizing here?",
+      "stageType": 2
+    },
+    {
+      "characterSpriteId": "npc_f_01",
+      "id": "U02Q17_STAGE_02",
+      "characterName": "Mira",
+      "stageText": "I lined up three of the scam messages side by side, and the pattern is textbook. None of them actually prove anything -- they just paint a terrifying outcome and bolt a deadline onto it. The whole script is engineered to make the heart race before the brain catches up.",
+      "stageType": 0
+    },
+    {
+      "latitude": 44.4268,
+      "longitude": 26.1025,
+      "locationId": "FEAR_SETTLEMENT_PORTAL",
+      "iconId": "",
+      "id": "U02Q17_STAGE_03",
+      "characterName": "Mira",
+      "stageText": "Exactly -- they manufacture dread, then sell you the 'way out'. I traced the settlement portal harvesting those payments to a hosting node in Eastern Europe. Tag it so we can file the takedown.",
+      "stageType": 4
+    },
+    {
+      "moneyReward": 100,
+      "legendReward": 20,
+      "correctAnswerIndex": 1,
+      "answers": [
+        "Fear improves memory, so victims recall the attacker's instructions perfectly",
+        "Acute fear narrows attention onto the threat and short-circuits calm, critical verification",
+        "Fear only affects people who are already careless or distracted",
+        "Fear slows people down, giving them more time to think it through"
+      ],
+      "incorrectAnswerText": "Under acute fear the brain narrows onto the threat and the offered escape, suppressing the deliberate checking that would expose the scam.",
+      "id": "U02Q17_STAGE_04",
+      "characterName": "Mira",
+      "stageText": "Portal's logged. The firm's partner wants to understand why careful, detail-oriented accountants of all people fell for a threat with no evidence behind it. What best explains why fear is so effective in social engineering?",
+      "stageType": 2
+    },
+    {
+      "options": [
+        {
+          "optionText": "Run targeted awareness training on threat-based scams and set a standing rule: any 'legal action' or 'fine' demand is verified through an official channel before anyone acts or pays.",
+          "moneyReward": 200,
+          "honorReward": 35
+        },
+        {
+          "optionText": "Just tell staff to stay calm and trust their gut next time, with no formal verification process.",
+          "moneyReward": 80,
+          "honorReward": -10
+        }
+      ],
+      "id": "U02Q17_STAGE_05",
+      "characterName": "Mira",
+      "stageText": "Here's the call to make with the firm's leadership on how to harden their people against fear-based pressure from now on.",
+      "stageType": 1
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q18_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Mira, a hospital billing team is getting countdown texts demanding they reconfirm bank details before an 'account closes'. Pure urgency play. Walk them back from the ledge.",
+      "stageType": 0
+    },
+    {
+      "moneyReward": 100,
+      "legendReward": 15,
+      "correctAnswerIndex": 0,
+      "answers": [
+        "Urgency -- a shrinking deadline that forces action before thinking",
+        "Curiosity about hidden account details",
+        "Loyalty to a long-time colleague",
+        "Greed for a financial bonus"
+      ],
+      "incorrectAnswerText": "It's Urgency. A countdown manufactures time pressure, and people watching a clock tick skip the verification steps they'd normally take.",
+      "id": "U02Q18_STAGE_01",
+      "characterName": "Mira",
+      "stageText": "I've got the hospital's billing team now. They're being bombarded with texts and calls saying their payroll account 'closes in 15 minutes' unless they reconfirm bank details on a link -- complete with a live countdown timer. A couple of staff rushed it through. Which human vulnerability is the attacker leaning on hardest here?",
+      "stageType": 2
+    },
+    {
+      "characterSpriteId": "npc_f_03",
+      "id": "U02Q18_STAGE_02",
+      "characterName": "Priya",
+      "stageText": "Mira, Priya again -- I sat with one of the billing clerks and the thing she kept repeating was 'I didn't have time to check, it said fifteen minutes'. The countdown did all the work. Take the timer away and the message is obviously junk.",
+      "stageType": 0
+    },
+    {
+      "latitude": 14.5995,
+      "longitude": 120.9842,
+      "locationId": "URGENCY_COUNTDOWN_HOST",
+      "iconId": "",
+      "id": "U02Q18_STAGE_03",
+      "characterName": "Mira",
+      "stageText": "That's the whole trick -- the clock, not the content. I followed the reconfirmation link to the server running that countdown and capturing the bank details. It's hosted in Southeast Asia. Let's mark it for the abuse report.",
+      "stageType": 4
+    },
+    {
+      "moneyReward": 150,
+      "legendReward": 25,
+      "correctAnswerIndex": 1,
+      "answers": [
+        "Reply to the message asking the sender for more time",
+        "Treat any unexpected deadline as a red flag and verify the request through a known official contact before acting",
+        "Always act within the deadline just to be safe",
+        "Forward the message to colleagues so the group can decide quickly together"
+      ],
+      "incorrectAnswerText": "The fix is to treat the deadline itself as the warning sign and verify through an independent, official channel -- real institutions never force you to reconfirm bank details against a 15-minute timer.",
+      "id": "U02Q18_STAGE_04",
+      "characterName": "Mira",
+      "stageText": "Host logged. The billing supervisor wants one practical habit that defuses these countdown scams for good. What's the most effective mitigation to teach the team?",
+      "stageType": 2
+    },
+    {
+      "options": [
+        {
+          "optionText": "Establish a written verification protocol for all urgent financial requests and brief every department on it.",
+          "moneyReward": 200,
+          "honorReward": 35
+        },
+        {
+          "optionText": "Take the payout, close the ticket, and move on without changing any process.",
+          "moneyReward": 300,
+          "honorReward": 5
+        }
+      ],
+      "id": "U02Q18_STAGE_05",
+      "characterName": "Mira",
+      "stageText": "Last step -- how we want to leave the hospital set up so a ticking clock can't stampede their staff again.",
+      "stageType": 1
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q19_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Mira, freshers at the local university are getting identity-harvested by an 'invite-only' club that runs on exclusivity and FOMO. Belonging is the lever here. It's yours.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -1297,7 +1578,7 @@
       ],
       "incorrectAnswerText": "This is an exploitation of Scarcity combined with the psychological desire to belong. By making the club look exclusive, prestigious, and time-limited, attackers make students act quickly to avoid missing out.",
       "id": "U02Q19_STAGE_01",
-      "characterName": "Jax",
+      "characterName": "Mira",
       "stageText": "Check your secure feed. I just offloaded some telemetry data from the Student Outreach Office at the local university. They are facing a massive wave of identity theft reports among freshers. It turns out the students all received messages on a popular campus mobile app inviting them to join a 'selective, invite-only student club' that promises elite networking, mentorship, and exclusive perks. The message includes graphics that say: 'Secure your spot now before the registration closes permanently!' What human vulnerability is the attacker exploiting here by making the club seem so exclusive and limited?",
       "stageType": 2
     },
@@ -1311,8 +1592,8 @@
       ],
       "incorrectAnswerText": "It's False! Copying a university logo and club name takes seconds. Attackers spoof these details to create a false sense of legitimacy and bypass the students' natural caution.",
       "id": "U02Q19_STAGE_02",
-      "characterName": "Jax",
-      "stageText": "Exactly, they weaponized the fear of missing out and the need to fit in. To sign up, the message directs students to an embedded mobile form that looks like a standard university club application. It asks for sensitive data like full names, student IDs, class schedules, and even high-res headshots. One student on the forum posted: 'Since the group name matches an official campus club, it's 100% safe to fill out.' Let's correct this: True or Falseâ€”can a mobile form be automatically trusted just because the group name and logo match a real organization?",
+      "characterName": "Mira",
+      "stageText": "Exactly, they weaponized the fear of missing out and the need to fit in. To sign up, the message directs students to an embedded mobile form that looks like a standard university club application. It asks for sensitive data like full names, student IDs, class schedules, and even high-res headshots. One student on the forum posted: 'Since the group name matches an official campus club, it's 100% safe to fill out.' Let's correct this: True or False: can a mobile form be automatically trusted just because the group name and logo match a real organization?",
       "stageType": 2
     },
     {
@@ -1321,7 +1602,7 @@
       "locationId": "CAMPUS_PHISHING_HOST",
       "iconId": "",
       "id": "U02Q19_STAGE_03",
-      "characterName": "Jax",
+      "characterName": "Mira",
       "stageText": "Right on. Never trust the packaging. I dug deeper into the infrastructure and found that the form links directly to a clone of the official university club portal. The attacker is using this fake site to display a live list of 'recently registered students' to create social proof, making even more people trust it. I've tracked the server hosting this fraudulent registration portal. Let's tag its coordinates on our map.",
       "stageType": 4
     },
@@ -1337,7 +1618,7 @@
       ],
       "incorrectAnswerText": "Education and verification are key! Running security awareness campaigns and giving students a clear, centralized registry of real clubs stops these social engineering traps from spreading.",
       "id": "U02Q19_STAGE_04",
-      "characterName": "Jax",
+      "characterName": "Mira",
       "stageText": "Location logged. Now, the Student Outreach Office wants to set up a quick awareness booth at the campus library to help students spot these identity traps before they fill out any more fake forms. Real campus groups will never require personal IDs or full class schedules just for an initial sign-up. What is the most effective operational prevention strategy we should recommend to the university?",
       "stageType": 2
     },
@@ -1355,9 +1636,23 @@
         }
       ],
       "id": "U02Q19_STAGE_05",
-      "characterName": "Jax",
+      "characterName": "Mira",
       "stageText": "Perfect. The university is setting up the official club registry and pushing out the security alerts via the main student portal. The Outreach Office is incredibly relieved and wants to retain us to do a full mobile application security audit for their internal communications app next month. How should we finalize this contract?",
       "stageType": 1
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q20_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Dex, a privacy watchdog flagged a wave of polite 'Data Accuracy Initiative' calls coaxing residents into handing over identity details. Pretexting -- your kind of puzzle.",
+      "stageType": 0
+    },
+    {
+      "characterSpriteId": "npc_m_02",
+      "id": "U02Q20_STAGE_00B",
+      "characterName": "Dex",
+      "stageText": "Copy that. Badge logs that show 'nothing wrong' usually mean the breach walked in on two legs, not over the wire. Pull up the camera footage -- I'll take it from here.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -1371,7 +1666,7 @@
       ],
       "incorrectAnswerText": "While it happens over the phone, the core technique is Pretexting. The attacker invents a elaborate, fabricated scenario (the pretext) to establish a false sense of legitimacy and trick the victim into releasing sensitive data.",
       "id": "U02Q20_STAGE_01",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Are you free? A local privacy watchdog group just pinged me about a weird campaign targeting the neighborhood. They've been flooded with complaints from citizens who received highly professional phone calls from someone claiming to be a representative of a 'Data Accuracy Initiative' funded by a prominent local credit union. The caller smoothly explains that due to recent regional fraud, they are verifying residents' identities, contact details, and employment status to keep them enrolled in fraud protection. What specific social engineering methodology is being weaponized here?",
       "stageType": 2
     },
@@ -1387,7 +1682,7 @@
       ],
       "incorrectAnswerText": "It works because it's altruistic! When an attacker acts like a helpful ally trying to protect you, it creates a compliance trap, causing you to lower your guard and volunteer data without realizing you are under attack.",
       "id": "U02Q20_STAGE_02",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Exactly, it's pretexting. I'm reviewing one of the call audio logs right now. The attacker didn't use threats or create fake panic. Instead, they were incredibly helpful, polite, and empathetic, saying things like: 'We just want to make sure your identity stays completely safe from hackers.' Why is this specific type of narrative so incredibly effective against normal citizens?",
       "stageType": 2
     },
@@ -1397,7 +1692,7 @@
       "locationId": "PRETEXT_HARVEST_NODE",
       "iconId": "",
       "id": "U02Q20_STAGE_03",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Spot on. They weaponize kindness. I ran a footprinting check on the digital web forms the callers were directing people to for 'final confirmation'. The servers harvesting these citizen profiles are active right now. I've intercepted the host IP address. Let's log its location on our dashboard so we can alert local authorities.",
       "stageType": 4
     },
@@ -1413,7 +1708,7 @@
       ],
       "incorrectAnswerText": "Verification is the ultimate shield! Teaching citizens to never give out data on unsolicited calls, and instead hang up and call the institution back using a verified, official number, completely neutralizes pretexting.",
       "id": "U02Q20_STAGE_04",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Location logged. The privacy watchdog wants us to design a community-wide educational campaign to stop these compliance traps before more seniors and local residents surrender their identity numbers. What is the most effective proactive advice we should put in the public safety advisory?",
       "stageType": 2
     },
@@ -1431,9 +1726,16 @@
         }
       ],
       "id": "U02Q20_STAGE_05",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Perfect. The advisory notice is being distributed to local community centers and banking apps right now. The watchdog group is thrilled with our threat analysis and wants to clear our invoice immediately. They even mentioned recommending our services to the credit union's internal security team. How do you want to close this ticket?",
       "stageType": 1
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q21_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Dex, fintech startup lost a laptop off the floor during a fire drill with zero badge anomalies. Looks like someone walked in behind staff. Physical breach, you're on.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -1447,7 +1749,7 @@
       ],
       "incorrectAnswerText": "This is a classic Tailgating attack. The unauthorized individual exploits a brief window of distraction to physically follow a legitimate employee into a restricted area without scanning an access badge.",
       "id": "U02Q21_STAGE_01",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Drop what you're doing, we've got a live physical breach fallout. A fintech startup across town brought me in because one of their high-end corporate laptops completely vanished from the office floor during a routine fire drill yesterday. The digital badge logs show absolutely no unverified entries or unknown ID scans during that timeframe. I'm reviewing the backup security camera footage right now. It shows a stranger in business attire, holding a coffee cup and pretending to talk on their phone, closely following an employee through the rear exit door right as everyone was re-entering the building. What specific type of physical social engineering attack are we looking at here?",
       "stageType": 2
     },
@@ -1463,7 +1765,7 @@
       ],
       "incorrectAnswerText": "The ultimate defense against tailgating is a mix of strict physical access controls and security culture. Enforcing one badge per person and training staff to challenge unbadged followers blocks the entry vector completely.",
       "id": "U02Q21_STAGE_02",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Exactly, it's tailgating. The footage shows that nobody challenged this person because they looked like they belonged there and were busy on the phone. Once inside, they just found a vacant desk, sat down for a bit, grabbed the laptop, and walked right out. To make matters worse, the startup director just confirmed the stolen laptop wasn't encrypted and contained sensitive, unhashed client files. They are panicking. What is the most effective operational countermeasure we should advise them to implement immediately to prevent this from happening again?",
       "stageType": 2
     },
@@ -1473,7 +1775,7 @@
       "locationId": "FINTECH_STOLEN_ASSET_NODE",
       "iconId": "",
       "id": "U02Q21_STAGE_03",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Perfect. Individual badge compliance is the way to go. While the local police are handling the physical tracking of the stolen hardware, I want to cross-reference our global threat feeds. Scammers who pull off physical thefts like this often use specialized underground drop-off spots or proxy fences to wipe and sell corporate assets. I've flagged a suspicious hardware fencing hub operating in North America. Let's register its coordinate on our map.",
       "stageType": 4
     },
@@ -1491,9 +1793,16 @@
         }
       ],
       "id": "U02Q21_STAGE_04",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Location logged. The startup's executive team is incredibly grateful for our swift physical breach analysis and long-term security recommendations. They want to officially hire us to perform a comprehensive physical and social engineering audit of their entire facility next week. How do you want to wrap up this incident ticket?",
       "stageType": 1
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q22_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Dex, a medical clinic let a man with a binder and a fake badge straight into their systems. Authority impersonation, in person. Go untangle it.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -1507,8 +1816,8 @@
       ],
       "incorrectAnswerText": "This is a prime example of Trust in Authority. The attacker didn't use threats or panic; instead, he relied on visual symbols of legitimacy like badges, official forms, and structured documentation to trigger compliance.",
       "id": "U02Q22_STAGE_01",
-      "characterName": "Jax",
-      "stageText": "Hey! I just got called in by a local non-profit medical clinic. They've experienced a major data breach, but here's the catchâ€”it wasn't a remote network hack. Yesterday, a well-dressed man carrying a professional binder walked straight into their back office. He had a badge, official-looking audit forms with the clinic's real logo, and knew the names of the top management. He was very calm, polite, and didn't rush anyone. The staff completely trusted him and let him access their systems. What specific social engineering technique did this attacker exploit?",
+      "characterName": "Dex",
+      "stageText": "Hey! I just got called in by a local non-profit medical clinic. They've experienced a major data breach, but here's the catch, it wasn't a remote network hack. Yesterday, a well-dressed man carrying a professional binder walked straight into their back office. He had a badge, official-looking audit forms with the clinic's real logo, and knew the names of the top management. He was very calm, polite, and didn't rush anyone. The staff completely trusted him and let him access their systems. What specific social engineering technique did this attacker exploit?",
       "stageType": 2
     },
     {
@@ -1523,8 +1832,8 @@
       ],
       "incorrectAnswerText": "It's all about psychological obedience. High-stress scams can raise red flags, but a calm, highly structured bureaucratic approach mimics everyday corporate reality, causing employees to lower their guard and obey automatically.",
       "id": "U02Q22_STAGE_02",
-      "characterName": "Jax",
-      "stageText": "Exactly, authority impersonation. The clinic staff explained that the man handed them a checklist to 'verify that permission groups match the latest internal report.' He didn't even ask for passwords directlyâ€”he just had the employees type their own credentials into a form on his laptop while he quietly recorded everything. Why do these structured, document-backed authority attacks often work better than high-stress threats or urgency?",
+      "characterName": "Dex",
+      "stageText": "Exactly, authority impersonation. The clinic staff explained that the man handed them a checklist to 'verify that permission groups match the latest internal report.' He didn't even ask for passwords directly, he just had the employees type their own credentials into a form on his laptop while he quietly recorded everything. Why do these structured, document-backed authority attacks often work better than high-stress threats or urgency?",
       "stageType": 2
     },
     {
@@ -1533,7 +1842,7 @@
       "locationId": "AUTHORITY_SCAM_REGISTRY",
       "iconId": "",
       "id": "U02Q22_STAGE_03",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Spot on. The appearance of order completely short-circuited their defense. While the local team secures the physical workspace, I tracked the digital trail of the rogue auditing application used on that laptop. The form data was beaconing to a malicious backend registry node. I've uncovered its location. Let's tag it on our threat map.",
       "stageType": 4
     },
@@ -1549,7 +1858,7 @@
       ],
       "incorrectAnswerText": "Visual trust is a vulnerability! The ultimate countermeasure is a strict out-of-band digital verification protocol. Staff must verify any visitor's credentials through an official corporate database or directory, completely ignoring paper forms or badges.",
       "id": "U02Q22_STAGE_04",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Location logged. Now, the clinic director wants us to help them design a new verification protocol so that a clipboard and a fake badge can never exploit their staff again. What is the most effective operational best practice to reduce the risk of authority-based physical attacks?",
       "stageType": 2
     },
@@ -1567,9 +1876,16 @@
         }
       ],
       "id": "U02Q22_STAGE_05",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Perfect. The clinic is implementing a mandatory digital check-in and secondary verification system for all external contractors today. They are incredibly grateful that we uncovered how the breach happened and want to clear today's invoice immediately. How do you want to finalize this case file?",
       "stageType": 1
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q23_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Dex, weird one at a hardware store -- staff called the 'attackers' themselves after fake IT errors popped up. Reverse social engineering, right up your alley.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -1583,7 +1899,7 @@
       ],
       "incorrectAnswerText": "This is a classic Reverse Social Engineering attack. Instead of reaching out to the victim directly, the attacker sabotages a system or creates a fake problem, then waits for the panicked victim to willingly reach out to them for assistance.",
       "id": "U02Q23_STAGE_01",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Get ready for a weird one. I'm dealing with a highly unusual incident at a large local hardware supply store. Their staff actually initiated contact with the attackers! Dozens of employees started seeing a critical, flashing error message on their desktop screens stating: 'System Compromise Detected! Call Internal IT Support immediately at this number to restore your workspace.' When they called, a very professional technician answered, guided them through fixing the error, and asked for their administrative passwords. The tricky part? The store's actual IT department never sent an alert or set up that hotline. What advanced social engineering technique are we looking at?",
       "stageType": 2
     },
@@ -1597,8 +1913,8 @@
       ],
       "incorrectAnswerText": "It's False! The attacker created the error on purpose, so of course they knew exactly what it looked like. Knowing the symptoms of a problem they generated is just part of their script.",
       "id": "U02Q23_STAGE_02",
-      "characterName": "Jax",
-      "stageText": "Exactly, reverse social engineering. It's incredibly effective because the victim completely lowers their guardâ€”after all, they believe they are the ones who initiated a secure support call. One of the store floor managers is talking to me right now and says: 'But the technician on the phone knew exactly what error we were seeing, so they had to be official IT!' Let's correct this: True or Falseâ€”does an external technician's knowledge of a specific system error prove they are an authorized company representative?",
+      "characterName": "Priya",
+      "stageText": "Dex, Priya on the floor with the store managers. One of them keeps insisting the technician 'must be real IT' because he knew exactly which error they were seeing. True or false -- does knowing the error prove he's authorized?",
       "stageType": 2
     },
     {
@@ -1611,9 +1927,9 @@
         "Baiting",
         "Impersonation"
       ],
-      "incorrectAnswerText": "This initial phase is Baiting! The attacker left a physical temptationâ€”the lost USB driveâ€”knowing curiosity or a desire to help would push someone to plug it into a company computer, establishing the initial foothold.",
+      "incorrectAnswerText": "This initial phase is Baiting! The attacker left a physical temptation, the lost USB drive, knowing curiosity or a desire to help would push someone to plug it into a company computer, establishing the initial foothold.",
       "id": "U02Q23_STAGE_03",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Right on. We need to figure out how the attacker managed to trigger those fake system errors across the store's network in the first place. I checked the event logs on the manager's primary computer. It turns out an intern found a generic USB flash drive labeled 'Marketing Q4 Assets' in the parking lot and plugged it right into the workstation. The drive instantly dropped a background script that generated the fake loop errors. What additional social engineering method was used here to launch the initial phase of the attack?",
       "stageType": 2
     },
@@ -1623,7 +1939,7 @@
       "locationId": "REVERSE_SE_MALWARE_C2",
       "iconId": "",
       "id": "U02Q23_STAGE_04",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Unbelievable. A simple baiting trap set up a massive reverse social engineering exploit. I've intercepted the command-and-control node that the malicious USB script used to download the fake error screen layout. Let's tag its coordinate on our dashboard so we can block it at the firewall level.",
       "stageType": 4
     },
@@ -1641,16 +1957,23 @@
         }
       ],
       "id": "U02Q23_STAGE_05",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Location logged and blocked. The hardware store's executives are completely stunned by how complex this multi-stage attack was. They want us to draft a new procedural standard to protect their business operations and employees from ever falling for a reverse tech-support trap again. What is the absolute best operational defense we can recommend?",
       "stageType": 1
     },
     {
       "skillId": "SKILL_REVERSE_SE_DEFENSE",
       "id": "U02Q23_STAGE_06",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Superb decision. Combining physical port controls with a rock-solid, authenticated internal helpdesk process completely shatters the reverse social engineering playbook. You handled this highly sophisticated incident flawlessly. This case proves how interconnected physical and psychological threat vectors are. I've turned our defensive architecture into a master training module. Ready to add this skill to your dashboard?",
       "stageType": 3
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q24_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Dex, biotech center got piggybacked. Guy with a coffee tray talked his way through a secure door and walked out with a drive. Physical access case, take point.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -1664,7 +1987,7 @@
       ],
       "incorrectAnswerText": "This is Piggybacking. Unlike tailgating (where an attacker slips in undetected), piggybacking involves direct interaction and manipulation, where the attacker uses a deceptive story or plea for help to convince an authorized employee to willingly grant them entry.",
       "id": "U02Q24_STAGE_01",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Pinging you with an emergency update from a high-security biotech research center. They've had a serious security incident, and the way the attacker got inside is wild. Yesterday, a man arrived at the restricted laboratory entrance carrying a large, heavy tray of coffees while talking on a phone headset. He looked frustrated and told the employees that his access badge suddenly stopped working. Wanting to be polite and helpful to a 'colleague' with his hands full, a researcher held the secure door open for him. What specific social engineering technique did the attacker use to get inside?",
       "stageType": 2
     },
@@ -1680,7 +2003,7 @@
       ],
       "incorrectAnswerText": "Physical security is the first line of defense for digital systems. If an attacker gains physical access to your building, they bypass remote firewalls completely, allowing them to directly access hardware, implant keyloggers, or walk away with data.",
       "id": "U02Q24_STAGE_02",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Exactly, it's piggybacking. The attacker explicitly asked for help to exploit their kindness. I'm reviewing the system and network logs from that specific sector right now. Once inside the secure area, the attacker found a terminal, plugged in a device, and stole a physical hard drive containing proprietary, unencrypted research documents. The lab director is confused, saying: 'This was just a physical building issue, why are you checking the cyber infrastructure?' Let's explain it to him: Why is physical piggybacking considered a major cybersecurity threat?",
       "stageType": 2
     },
@@ -1690,7 +2013,7 @@
       "locationId": "BIOTECH_STOLEN_DATA_NODE",
       "iconId": "",
       "id": "U02Q24_STAGE_03",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Spot on. Physical access equals root access. I've been running threat intelligence checks on the exfiltrated digital signatures of the stolen biotech research data. It looks like a segment of that proprietary code was briefly staged on an unauthorized external drop-server hosted in Europe. Let's pin its location on our tracking dashboard so we can issue a legal takedown notice.",
       "stageType": 4
     },
@@ -1706,7 +2029,7 @@
       ],
       "incorrectAnswerText": "The key is breaking the culture of compliance! Enforcing a 'one badge, one entry' policy and empowering staff to actively challenge or redirect individuals to the main reception completely neutralizes piggybacking attempts.",
       "id": "U02Q24_STAGE_04",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Location logged. Now, the biotech center's management wants to immediately overhaul their facility's physical security guidelines. They want a solution that stops staff from giving 'free rides' to smooth-talking strangers, even if they claim to be employees. What is the most effective operational defense to mitigate the risk of piggybacking?",
       "stageType": 2
     },
@@ -1724,9 +2047,23 @@
         }
       ],
       "id": "U02Q24_STAGE_05",
-      "characterName": "Jax",
+      "characterName": "Dex",
       "stageText": "Perfect. Individual badge enforcement and a culture of questioning unexpected guests will close that gap completely. The biotech center is incredibly grateful for our rapid intervention and threat mapping. They are ready to clear our invoice with a substantial hazard bonus. How should we close this case file?",
       "stageType": 1
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q25_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Noor, sensitive personal one. My neighbor got drained by a months-long romance scam and the profile vanished. There's a real infrastructure trail under it -- handle it with care.",
+      "stageType": 0
+    },
+    {
+      "characterSpriteId": "npc_f_06",
+      "id": "U02Q25_STAGE_00B",
+      "characterName": "Noor",
+      "stageText": "Understood. Romance scams leave a real technical footprint under all the heartbreak -- VoIP lines, recycled photos, proxy hops. Send me the chat exports and I'll start pulling the thread.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -1740,7 +2077,7 @@
       ],
       "incorrectAnswerText": "This is a classic Romance Scam. Attackers intentionally target loneliness and the human desire for emotional connection, investing weeks into building a deep, synthetic sense of companionship to completely bypass logical skepticism.",
       "id": "U02Q25_STAGE_01",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Do you have a second to help triage a personal emergency for my neighbor? He's a retired schoolteacher and he's completely devastated. A few months ago, he met someone on a dating app. They built an intense emotional bond, shared personal stories, and messaged every day. Once he was completely hooked, the person claimed they needed urgent financial help with a delayed work permit and immigration issues. He blindly wired his entire life savings to them, and the moment the transfer cleared, their profile vanished into thin air. What core human vulnerability did the attacker exploit here?",
       "stageType": 2
     },
@@ -1754,7 +2091,7 @@
       ],
       "incorrectAnswerText": "It's completely False! Romance scams frequently involve credential harvesting, identity theft, or the victim's device being used to launder money, host malicious files, or act as an unwitting proxy for advanced cyber campaigns.",
       "id": "U02Q25_STAGE_02",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Exactly, they weaponized his trust and emotions. My neighbor is feeling deeply ashamed, but he also asked a serious question: 'Since this all happened through a personal relationship and text messages, it's just a personal financial loss, right? There aren't any actual cybersecurity risks involved here.' Let's clarify this common myth for him. True or False: Romance scams are strictly personal financial issues and carry no broader cybersecurity implications?",
       "stageType": 2
     },
@@ -1764,7 +2101,7 @@
       "locationId": "ROMANCE_SCAM_SYNTHETIC_HUB",
       "iconId": "",
       "id": "U02Q25_STAGE_03",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Spot on. It's a huge cyber threat vector. I performed a forensic analysis on the chat history and the digital assets from the scammer's profile. Reverse image searches show their photos were stock assets, and their phone number was a temporary VoIP line routing through an encrypted proxy node. I've tracked the digital coordinate where that synthetic profile was generated and managed. Let's log it on our map.",
       "stageType": 4
     },
@@ -1780,7 +2117,7 @@
       ],
       "incorrectAnswerText": "The primary driver is pretexting with emotional intent. Scammers carefully craft a completely fake identity, mirror the victim's interests, and manipulate their psychological triggers to build absolute, unverified compliance.",
       "id": "U02Q25_STAGE_04",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Location logged. My neighbor wants to help prevent other vulnerable people from falling into these devastating emotional traps. He asked us what combination of tactical strategies best describes how these attackers plan and execute their deceptive narratives from day one.",
       "stageType": 2
     },
@@ -1798,9 +2135,16 @@
         }
       ],
       "id": "U02Q25_STAGE_05",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Perfect. Now that we've mapped the infrastructure and analyzed the mechanics, I'm helping my neighbor submit formal fraud reports to the FTC and IC3 so federal investigators can take over. He wants to know what the single most effective community-wide prevention strategy is to protect people from romance scams in the future. What should we recommend?",
       "stageType": 1
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q26_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Noor, a creative agency's internal chat is spreading fake 'IT patch' links faster than they can mute them. Spimming inside the messenger. Containment's yours.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -1814,7 +2158,7 @@
       ],
       "incorrectAnswerText": "This is Spimming (Spam over Instant Messaging). When attackers bypass the email inbox entirely to inject malicious links and fake alerts directly into real-time chat platforms, it's classified as spimming.",
       "id": "U02Q26_STAGE_01",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "We've got a fast-moving infection spreading in a small creative agency town. Their operations manager just hit me up because their teams are in a total panic. Dozens of employees have been flooded with suspicious instant messages directly inside their internal workplace chat platform. The messages claim to be from 'IT Support' and demand that users click an embedded URL to deploy a 'required patch before the VPN times out.' What specific social engineering technique are we dealing with when attackers target corporate instant messaging networks instead of traditional email?",
       "stageType": 2
     },
@@ -1830,7 +2174,7 @@
       ],
       "incorrectAnswerText": "They weaponized Familiarity and Urgency! Real-time corporate chat relies on low formality and fast responses, so blending a familiar identity with a high-stress, short countdown short-circuits an employee's caution.",
       "id": "U02Q26_STAGE_02",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Exactly, it's spimming. I'm analyzing the metadata of the rogue messages right now. The sender's display name perfectly mirrors their internal IT lead, but the underlying account handle is off by exactly one microscopic letter. The language used was super casual: 'Hey, hit the update real fast, no time to explain!' Which psychological triggers did the attacker combine here to trick the creative team?",
       "stageType": 2
     },
@@ -1846,8 +2190,8 @@
       ],
       "incorrectAnswerText": "It exploits peer-to-peer trust. When an attack originates from a real colleague's hijacked account inside a private corporate channel, other employees trust it blindly, accelerating the infection exponentially.",
       "id": "U02Q26_STAGE_03",
-      "characterName": "Jax",
-      "stageText": "Spot on. Fast-moving teams are incredibly vulnerable to that exact combination. Unfortunately, one employee did click the link. It took them to a credential harvesting page styled to look like their official corporate portal. The moment they typed their login, their account was compromised and instantly started automated 'echo chamber' behaviorâ€”re-sending the exact same malicious link to everyone else in their chat history. Why is this specific containment failure so dangerous inside an enterprise environment?",
+      "characterName": "Noor",
+      "stageText": "Spot on. Fast-moving teams are incredibly vulnerable to that exact combination. Unfortunately, one employee did click the link. It took them to a credential harvesting page styled to look like their official corporate portal. The moment they typed their login, their account was compromised and instantly started automated 'echo chamber' behavior, re-sending the exact same malicious link to everyone else in their chat history. Why is this specific containment failure so dangerous inside an enterprise environment?",
       "stageType": 2
     },
     {
@@ -1856,7 +2200,7 @@
       "locationId": "SPIM_TOKEN_HARVESTER",
       "iconId": "",
       "id": "U02Q26_STAGE_04",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Right, the echo-chamber effect completely weaponizes internal peer trust. I traced the telemetry of that fake credential harvesting portal. The external server capturing the stolen session tokens is active. I've pinpointed its network coordinate. Let's tag its location on our threat map so we can deploy a centralized firewall block.",
       "stageType": 4
     },
@@ -1874,16 +2218,23 @@
         }
       ],
       "id": "U02Q26_STAGE_05",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Location logged and blocked. The agency's director wants an immediate remediation plan to make sure outside actors can't spoof their internal handles or push unverified external links into employee chat streams again. What is the absolute best operational defense we should put in our final report?",
       "stageType": 1
     },
     {
       "skillId": "SKILL_IM_HARDENING",
       "id": "U02Q26_STAGE_06",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Superb decision. Hardening the chat infrastructure and breaking the cycle of implicit internal trust completely shuts down the spimming playbook. You handled this real-time communication crisis like a seasoned incident responder. I've consolidated all our technical notes on instant messaging defenses into a master skill training. Ready to unlock it and upgrade your security arsenal?",
       "stageType": 3
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q27_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Noor, a medical non-profit's donors are landing on a cloned donation page even when they type the right URL. That's resolver-level poisoning. Pharming case, take it.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -1897,8 +2248,8 @@
       ],
       "incorrectAnswerText": "This is a Pharming attack. Unlike phishing, which tricks users into clicking a bad link, pharming attacks manipulate the underlying DNS resolution or alter host files to silently redirect unsuspecting users to fake sites, even when they type the correct URL.",
       "id": "U02Q27_STAGE_01",
-      "characterName": "Jax",
-      "stageText": "Can you take a look at this infrastructure incident report? I just got a high-priority dispatch from a small medical non-profit, and they are in the middle of a massive crisisâ€”their donors are complaining that when they type the organization's official website URL into their mobile browsers, they are being silently redirected to a fake donation page. The fake page looks absolutely identical to the real one, but the funds go straight into a malicious account. I checked their server infrastructure and found unauthorized entries pointing to a rogue DNS resolver. What specific type of computer-based social engineering attack is occurring here?",
+      "characterName": "Noor",
+      "stageText": "Can you take a look at this infrastructure incident report? I just got a high-priority dispatch from a small medical non-profit, and they are in the middle of a massive crisis, their donors are complaining that when they type the organization's official website URL into their mobile browsers, they are being silently redirected to a fake donation page. The fake page looks absolutely identical to the real one, but the funds go straight into a malicious account. I checked their server infrastructure and found unauthorized entries pointing to a rogue DNS resolver. What specific type of computer-based social engineering attack is occurring here?",
       "stageType": 2
     },
     {
@@ -1913,7 +2264,7 @@
       ],
       "incorrectAnswerText": "Pharming poisons the lookup layer! By rewriting DNS cache entries or changing the default resolver, the attacker forces the system to translate a legitimate domain name into a malicious IP address, bypassing standard end-user caution.",
       "id": "U02Q27_STAGE_02",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Exactly, it's pharming. The non-profit's web master is completely baffled. He told me: 'Our donors didn't click any sketchy email links or fall for text scams, so how could they possibly end up on a malicious server?' Let's explain the technical mechanics of how this contamination spreads. Which of the following best describes how a standard pharming attack compromises a user's web request?",
       "stageType": 2
     },
@@ -1923,7 +2274,7 @@
       "locationId": "PHARMING_MALICIOUS_C2",
       "iconId": "",
       "id": "U02Q27_STAGE_03",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Spot on. It completely bypasses human caution because the URL in the address bar looks completely flawless. I analyzed the traffic logs from the rogue DNS entries and found the command-and-control server that is hosting the fraudulent donation platform. I've intercepted its network coordinate. Let's log it on our dashboard right now so we can coordinate a shutdown.",
       "stageType": 4
     },
@@ -1937,8 +2288,8 @@
       ],
       "incorrectAnswerText": "It's completely False! Strong account passwords do nothing to stop a pharming attack because the breach occurs at the network's routing and name-resolution layer, not via account credential cracking.",
       "id": "U02Q27_STAGE_04",
-      "characterName": "Jax",
-      "stageText": "Location logged. One of the non-profit's administrative assistants just chimed in: 'If we just force all our donors to change their email and online banking passwords, that will completely fix the website redirection issue, right?' Let's correct this misconception: True or Falseâ€”can standard pharming attacks be prevented entirely simply by using strong passwords on email and banking accounts?",
+      "characterName": "Priya",
+      "stageText": "Noor, Priya here. One of the non-profit's admins is convinced that if they just force every donor to change their email and banking passwords, the redirection problem goes away. True or false? I don't want to hand them false comfort.",
       "stageType": 2
     },
     {
@@ -1953,16 +2304,23 @@
       ],
       "incorrectAnswerText": "The key is keeping the routing layer clean! Regularly flushing the DNS cache, checking resolver configurations, and verifying server integrity completely neutralizes the attack path.",
       "id": "U02Q27_STAGE_05",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Right, passwords won't save you from a contaminated cache. The medical non-profit needs an immediate, definitive remediation plan to purge the threat and ensure their domain integrity going forward. What is the most effective operational best practice to mitigate this pharming attack at the DNS level?",
       "stageType": 2
     },
     {
       "skillId": "SKILL_DNS_INTEGRITY_PROTECTION",
       "id": "U02Q27_STAGE_06",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Fantastic. The non-profit has cleared their DNS cache, restored their hosting provider's authentic resolvers, and the real donation page is safely back online. They are incredibly grateful for our forensic analysis and want to establish a security advisory retainer with us. Resolving this case really proved how dangerous infrastructure-level manipulation can be. I've bundled all our DNS hardening discoveries into a new master skill. Ready to unlock it and secure your toolkit?",
       "stageType": 3
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q28_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Noor, an arts group is being whipped into a forwarding frenzy by a fake 'funder blacklist' chain email. Hoax mechanics -- your read.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -1976,8 +2334,8 @@
       ],
       "incorrectAnswerText": "This is a classic Email Hoax Chain. These attacks rely heavily on social and psychological pressure, forcing victims to forward the message to their peers to spread the panic and expand the attack vector.",
       "id": "U02Q28_STAGE_01",
-      "characterName": "Jax",
-      "stageText": "This is crazy â€” I just got pulled into a bizarre situation at a local community arts group. Several of their volunteers received an alarming, highly dramatic email claiming that a major institutional funder is completely 'blacklisting accounts' unless everyone immediately forwards the message to at least 10 other people. The mail uses intense pseudo-legal jargon and a fake technical notice to pressure people. What specific type of social engineering attack are we looking at here?",
+      "characterName": "Noor",
+      "stageText": "This is crazy, I just got pulled into a bizarre situation at a local community arts group. Several of their volunteers received an alarming, highly dramatic email claiming that a major institutional funder is completely 'blacklisting accounts' unless everyone immediately forwards the message to at least 10 other people. The mail uses intense pseudo-legal jargon and a fake technical notice to pressure people. What specific type of social engineering attack are we looking at here?",
       "stageType": 2
     },
     {
@@ -1992,7 +2350,7 @@
       ],
       "incorrectAnswerText": "It exploits Fear, Urgency, and Community Pressure! By creating a fake crisis (losing a funder) and giving a strict countdown or instruction to pass it on, the attacker uses the victims' own network to amplify the threat.",
       "id": "U02Q28_STAGE_02",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Exactly, it's a hoax chain email. The arts group staff are confused because they thought all cyber threats required sophisticated coding exploits. I explained that these hoaxes are primarily psychological tools. Which set of psychological triggers does a chain email exploit to manipulate victims into forwarding the message and bypassing safety protocols?",
       "stageType": 2
     },
@@ -2002,8 +2360,8 @@
       "locationId": "HOAX_MALICIOUS_NODE",
       "iconId": "",
       "id": "U02Q28_STAGE_03",
-      "characterName": "Jax",
-      "stageText": "Spot on. It weaponizes social pressure. Unfortunately, a few volunteers didn't just forward the emailâ€”they also clicked a secondary tracking link embedded at the bottom out of sheer panic. I ran a footprinting analysis on that URL, and it leads to a compromised blog page injected with malicious scripts that drop browser-extension tracking cookies. I've uncovered the server hosting that page. Let's register its location on our threat map.",
+      "characterName": "Noor",
+      "stageText": "Spot on. It weaponizes social pressure. Unfortunately, a few volunteers didn't just forward the email, they also clicked a secondary tracking link embedded at the bottom out of sheer panic. I ran a footprinting analysis on that URL, and it leads to a compromised blog page injected with malicious scripts that drop browser-extension tracking cookies. I've uncovered the server hosting that page. Let's register its location on our threat map.",
       "stageType": 4
     },
     {
@@ -2018,16 +2376,23 @@
       ],
       "incorrectAnswerText": "Education and client configuration are the best defense! Teaching users how hoaxes operate and disabling link previews stops the initial execution and containment failures dead in their tracks.",
       "id": "U02Q28_STAGE_04",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Location logged. The arts group directors want an immediate operational checklist to protect their volunteer base from spreading these digital urban legends ever again. What is the most effective first step they should implement for their email workflow?",
       "stageType": 2
     },
     {
       "skillId": "SKILL_HOAX_MITIGATION",
       "id": "U02Q28_STAGE_05",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Perfect. Combining security awareness with basic email hygiene completely neutralizes the chain-mail playbook. The arts group is incredibly relieved, and they are clearing our transaction payout right now. This incident really showed how psychological manipulation can bypass technology. I've synthesized our mitigation notes into a brand new skill. Ready to unlock it and upgrade your security toolkit?",
       "stageType": 3
+    },
+    {
+      "characterSpriteId": "npc_n_01",
+      "id": "U02Q29_STAGE_00",
+      "characterName": "Cipher",
+      "stageText": "Noor, a movie theater's workstations are locked behind screaming 'your PC is at risk' pop-ups after someone hit a sketchy streaming site. Scareware -- close us out on this unit.",
+      "stageType": 0
     },
     {
       "moneyReward": 100,
@@ -2041,15 +2406,15 @@
       ],
       "incorrectAnswerText": "Look closely at how they exploit human psychology! They use visual mimicry to copy real antivirus software and inject intense urgency to induce fear, forcing users to act out of panic rather than logic.",
       "id": "U02Q29_STAGE_01",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Are you near your terminal? I've got an urgent situation over at the local multiplex movie theater. Their ticketing and concession workstations are completely locked up with aggressive, flashing pop-up alerts. The messages are screaming things like: 'Your PC is at risk!' and 'Download immediate protection now!' The employees are panicking. From what I gathered, this chaos started right after a staff member visited an unverified streaming site. What specific social engineering tactic did the attacker weaponize to make these pop-ups so convincing to a regular user?",
       "stageType": 2
     },
     {
-      "characterSpriteId": "",
+      "characterSpriteId": "npc_f_06",
       "id": "U02Q29_STAGE_02",
-      "characterName": "Jax",
-      "stageText": "Exactly, they panicked them into making a bad move. The theater staff admitted that after seeing the fake 'full system scan' reveal dozens of imaginary infections, they clicked the download button and ran the installer. This is textbook Scareware. It relies heavily on emotional pressureâ€”specifically the fear of losing data or crashing the systemâ€”to make people bypass standard safety policies.",
+      "characterName": "Noor",
+      "stageText": "Exactly, they panicked them into making a bad move. The theater staff admitted that after seeing the fake 'full system scan' reveal dozens of imaginary infections, they clicked the download button and ran the installer. This is textbook Scareware. It relies heavily on emotional pressure, specifically the fear of losing data or crashing the system, to make people bypass standard safety policies.",
       "stageType": 0
     },
     {
@@ -2064,7 +2429,7 @@
       ],
       "incorrectAnswerText": "The main goal here is financial deception. Scareware tricks the victim into paying real money to fix fake problems, all while covertly mining browser data and user history in the background.",
       "id": "U02Q29_STAGE_03",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "I'm digging into one of the compromised terminal sandboxes right now. The software they installed actually displays a super clean, legitimate-looking dashboard that pretends to clean up the system. But here's the catch: it generates brand new terrifying alerts every few minutes, demanding an immediate credit card payment to 'unlock premium protection.' While it puts on this fake show, what is the actual primary objective of this specific scareware program?",
       "stageType": 2
     },
@@ -2074,7 +2439,7 @@
       "locationId": "SCAREWARE_EXFIL_HOST",
       "iconId": "",
       "id": "U02Q29_STAGE_04",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Spot on. It's a complete shakedown. I ran a deep packet capture on the rogue 'antivirus' process, and it's actively exfiltrating the theater employees' saved browser history and sensitive session tokens to a remote storage server. I've pinpointed the active IP address of the data harvesting node. Let's tag its location on our threat map so we can issue an upstream block.",
       "stageType": 4
     },
@@ -2090,7 +2455,7 @@
       ],
       "incorrectAnswerText": "Technical controls combined with human education is the golden standard! Training the staff to spot the tells of fake pop-ups and implementing browser-level script filters will intercept the attack before the user ever gets scared.",
       "id": "U02Q29_STAGE_05",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Excellent, that network block is live. Now that we've isolated the traffic and completely purged the fake security software from the theater's workstations, the manager wants us to establish a long-term defense framework. We need to prevent the staff from falling for these malicious browser pop-ups ever again. What is the most effective proactive countermeasure we should implement?",
       "stageType": 2
     },
@@ -2108,14 +2473,14 @@
         }
       ],
       "id": "U02Q29_STAGE_06",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Perfect. The theater's workstations are clean, ad-blockers are dialed in, and the staff now knows that legitimate security alerts will never demand a quick credit card payment over a browser popup. Management is thrilled with our incident response and just processed our payout. They also asked if we could stay on retainer to audit their main corporate ticketing network next month. What's our play?",
       "stageType": 1
     },
     {
       "skillId": "SKILL_SCAREWARE_ANALYSIS",
       "id": "U02Q29_STAGE_07",
-      "characterName": "Jax",
+      "characterName": "Noor",
       "stageText": "Outstanding work on this case. Deconstructing this scareware incident really highlights why physical and psychological defenses have to evolve together. I've compiled our entire forensic analysis, packet captures, and browser filter rules into a brand-new threat matrix module. Ready to unlock this skill and add it to your threat hunting arsenal?",
       "stageType": 3
     }
@@ -2180,6 +2545,254 @@
       "name": "Mobile Threat Intelligence",
       "description": "Understanding the psychological and technical vectors of mobile-based social engineering.",
       "cost": 100
+    }
+  ],
+  "pointsOfInterest": [
+    {
+      "id": "POI_SOCIAL_URGENT_PAYROLL_SMS",
+      "title": "Urgent Payroll Text",
+      "description": "A payroll-themed SMS claims an employee's deposit will fail unless they verify immediately. The pressure is the point: urgency makes people move before they inspect the link.",
+      "latitude": 38.7223,
+      "longitude": -9.1393,
+      "showAtProgressPercent": 3,
+      "moneyReward": 45,
+      "honorReward": 5,
+      "legendReward": 0,
+      "decisions": []
+    },
+    {
+      "id": "POI_SOCIAL_HELPDESK_PRETEXT",
+      "title": "Helpdesk Pretext",
+      "description": "A caller says they are from internal IT and asks an employee to read a one-time code aloud. A convincing role is not proof of authority.",
+      "latitude": 59.9139,
+      "longitude": 10.7522,
+      "showAtProgressPercent": 9,
+      "moneyReward": 0,
+      "honorReward": 0,
+      "legendReward": 0,
+      "decisions": [
+        {
+          "optionText": "Tell the employee to end the call and verify through the official helpdesk channel.",
+          "moneyReward": 90,
+          "honorReward": 12,
+          "legendReward": 5
+        },
+        {
+          "optionText": "Let the caller continue because they know the employee's full name.",
+          "moneyReward": 30,
+          "honorReward": -15,
+          "legendReward": 0
+        }
+      ]
+    },
+    {
+      "id": "POI_SOCIAL_QR_STICKER",
+      "title": "Swapped QR Sticker",
+      "description": "A cafe table has a fresh QR sticker placed over the real menu code. Physical placement can make a malicious link feel ordinary.",
+      "latitude": 55.6761,
+      "longitude": 12.5683,
+      "showAtProgressPercent": 16,
+      "moneyReward": 50,
+      "honorReward": 5,
+      "legendReward": 0,
+      "decisions": []
+    },
+    {
+      "id": "POI_SOCIAL_FAKE_DELIVERY_DM",
+      "title": "Fake Delivery DM",
+      "description": "A social media message claims a parcel is stuck and asks for a small redelivery fee. The amount is tiny, but the form harvests payment details.",
+      "latitude": 25.2048,
+      "longitude": 55.2708,
+      "showAtProgressPercent": 22,
+      "moneyReward": 0,
+      "honorReward": 0,
+      "legendReward": 0,
+      "decisions": [
+        {
+          "optionText": "Check the order through the official delivery site instead of the message link.",
+          "moneyReward": 95,
+          "honorReward": 10,
+          "legendReward": 5
+        },
+        {
+          "optionText": "Pay the fee quickly because the message says the package expires today.",
+          "moneyReward": 20,
+          "honorReward": -15,
+          "legendReward": 0
+        }
+      ]
+    },
+    {
+      "id": "POI_SOCIAL_TAILGATE_LOBBY",
+      "title": "Lobby Tailgate",
+      "description": "Someone carrying boxes asks an employee to hold the secure door open. Politeness is valuable, but access control still needs verification.",
+      "latitude": 48.2082,
+      "longitude": 16.3738,
+      "showAtProgressPercent": 29,
+      "moneyReward": 55,
+      "honorReward": 5,
+      "legendReward": 0,
+      "decisions": []
+    },
+    {
+      "id": "POI_SOCIAL_USB_BAIT",
+      "title": "Parking Lot USB",
+      "description": "A USB drive labeled 'Salary Review' appears near an office entrance. Curiosity is a classic baiting trigger, especially when the label feels personal.",
+      "latitude": 50.0755,
+      "longitude": 14.4378,
+      "showAtProgressPercent": 36,
+      "moneyReward": 0,
+      "honorReward": 0,
+      "legendReward": 0,
+      "decisions": [
+        {
+          "optionText": "Turn it over to security for controlled analysis without plugging it in.",
+          "moneyReward": 100,
+          "honorReward": 15,
+          "legendReward": 5
+        },
+        {
+          "optionText": "Open it on a personal laptop to see who lost it.",
+          "moneyReward": 40,
+          "honorReward": -25,
+          "legendReward": 0
+        }
+      ]
+    },
+    {
+      "id": "POI_SOCIAL_FAKE_INVOICE",
+      "title": "Vendor Invoice Switch",
+      "description": "An invoice arrives from a known vendor, but the bank account number has changed. Business email compromise often hides inside routine paperwork.",
+      "latitude": 53.3498,
+      "longitude": -6.2603,
+      "showAtProgressPercent": 43,
+      "moneyReward": 60,
+      "honorReward": 5,
+      "legendReward": 0,
+      "decisions": []
+    },
+    {
+      "id": "POI_SOCIAL_CALENDAR_LURE",
+      "title": "Calendar Lure",
+      "description": "A meeting invite appears with a link titled 'Updated benefits packet.' Calendar spam feels official because it lands directly in the user's schedule.",
+      "latitude": 47.3769,
+      "longitude": 8.5417,
+      "showAtProgressPercent": 50,
+      "moneyReward": 0,
+      "honorReward": 0,
+      "legendReward": 0,
+      "decisions": [
+        {
+          "optionText": "Report the invite, remove it, and adjust calendar settings to block automatic additions.",
+          "moneyReward": 105,
+          "honorReward": 12,
+          "legendReward": 5
+        },
+        {
+          "optionText": "Open the packet because it is already on the calendar.",
+          "moneyReward": 35,
+          "honorReward": -15,
+          "legendReward": 0
+        }
+      ]
+    },
+    {
+      "id": "POI_SOCIAL_IMPERSONATION_HANDLE",
+      "title": "Look-Alike Handle",
+      "description": "A fake brand account uses one extra letter and the same profile picture as the real account. Visual familiarity can hide tiny identity changes.",
+      "latitude": -26.2041,
+      "longitude": 28.0473,
+      "showAtProgressPercent": 58,
+      "moneyReward": 65,
+      "honorReward": 5,
+      "legendReward": 0,
+      "decisions": []
+    },
+    {
+      "id": "POI_SOCIAL_DEEPFAKE_VOICEMAIL",
+      "title": "Synthetic Voice Mail",
+      "description": "A short voice message sounds like an executive asking for a rushed transfer. Deepfake audio raises the value of out-of-band confirmation.",
+      "latitude": -12.0464,
+      "longitude": -77.0428,
+      "showAtProgressPercent": 65,
+      "moneyReward": 0,
+      "honorReward": 0,
+      "legendReward": 0,
+      "decisions": [
+        {
+          "optionText": "Pause the request and confirm it through a separate trusted contact path.",
+          "moneyReward": 115,
+          "honorReward": 15,
+          "legendReward": 5
+        },
+        {
+          "optionText": "Approve the transfer because the voice sounds familiar.",
+          "moneyReward": 70,
+          "honorReward": -30,
+          "legendReward": 0
+        }
+      ]
+    },
+    {
+      "id": "POI_SOCIAL_FAKE_APP_REVIEW",
+      "title": "Polished Fake App",
+      "description": "A fake utility app has clean screenshots, glowing reviews, and a name close to a trusted product. Professional presentation is not verification.",
+      "latitude": -36.8485,
+      "longitude": 174.7633,
+      "showAtProgressPercent": 72,
+      "moneyReward": 70,
+      "honorReward": 5,
+      "legendReward": 0,
+      "decisions": []
+    },
+    {
+      "id": "POI_SOCIAL_SHOULDER_SURFING",
+      "title": "Train Station Screen",
+      "description": "A commuter opens an admin panel on a crowded platform. Social engineering is not always a message; sometimes it starts with someone simply watching.",
+      "latitude": -33.4489,
+      "longitude": -70.6693,
+      "showAtProgressPercent": 79,
+      "moneyReward": 0,
+      "honorReward": 0,
+      "legendReward": 0,
+      "decisions": [
+        {
+          "optionText": "Recommend privacy screens and a habit of avoiding sensitive work in exposed spaces.",
+          "moneyReward": 100,
+          "honorReward": 12,
+          "legendReward": 5
+        },
+        {
+          "optionText": "Photograph the screen to prove the exposure happened.",
+          "moneyReward": 45,
+          "honorReward": -20,
+          "legendReward": 0
+        }
+      ]
+    },
+    {
+      "id": "POI_SOCIAL_CHARITY_SCAM",
+      "title": "Crisis Charity Scam",
+      "description": "A donation page appears minutes after breaking news and asks for mobile wallet payments. Emotional timing is a powerful social engineering tool.",
+      "latitude": -34.6037,
+      "longitude": -58.3816,
+      "showAtProgressPercent": 87,
+      "moneyReward": 75,
+      "honorReward": 5,
+      "legendReward": 0,
+      "decisions": []
+    },
+    {
+      "id": "POI_SOCIAL_FINAL_PATTERN",
+      "title": "Manipulation Pattern Review",
+      "description": "Urgency, authority, curiosity, fear, generosity, and convenience all appear in different attacks. Spotting the emotion being pushed is often the first defensive clue.",
+      "latitude": 41.9028,
+      "longitude": 12.4964,
+      "showAtProgressPercent": 96,
+      "moneyReward": 120,
+      "honorReward": 15,
+      "legendReward": 10,
+      "decisions": []
     }
   ]
 }

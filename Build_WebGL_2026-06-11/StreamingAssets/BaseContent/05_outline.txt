@@ -1,0 +1,21 @@
+Quest #	Topic 
+Quest 1:	Misconfiguration Expolits: File permissions
+Quest 2:	Misconfiguration Expolits: Web Server
+Quest 3:	Misconfiguration Expolits: Outdated Software
+Quest 4:	Misconfiguration Expolits: Exposed Setup
+Quest 5: 	Misconfiguration Expolits: Directory Listings
+Quest 6:	Analysis: Identification 
+Quest 7:	Analysis: Verification 
+Quest 8:	Analysis: Risk Scoring
+Quest 9:	Analysis: Feasibility
+Quest 10: 	Analysis: Remediation 
+Quest 11:	Assessment Types: Internal vs External
+Quest 12:	Assessment Types: Active vs Passive
+Quest 13:	Assessment Types: Host-Based 
+Quest 14:	Assessment Types: Network-Based
+Quest 15:	Assessment Types: Application-Level
+Quest 16: 	Exploitation Pathways: Privilege Escalation 
+Quest 17:	Exploitation Pathways: Password Cracking
+Quest 18: 	Exploitation Pathways: Remote Code Execution (RCE)
+Quest 19: 	Exploitation Pathways: Internal Networks
+Quest 20:	Exploitation Pathways: Maintaining Access

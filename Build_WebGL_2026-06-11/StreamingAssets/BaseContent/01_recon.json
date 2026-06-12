@@ -15,14 +15,14 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q01_STAGE_01",
       "characterName": "Maya",
       "stageText": "Hey, you made it into the training simulation. I’m watching the same dashboard from my side. Before we touch anything, I want us to understand what this company’s network looks like, who talks to whom, and what counts as normal.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q01_STAGE_02",
       "characterName": "Maya",
       "stageText": "The system just gave us a bundle of network logs. We are not exploiting anything yet. We are not building tools or taking control. We are observing, collecting clues, and trying to understand the environment.",
@@ -75,14 +75,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q01_STAGE_06",
       "characterName": "Maya",
       "stageText": "Now we know what phase we are in. Next time the simulation gives us a strange signal, we will be able to ask better questions instead of guessing.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q02_STAGE_01",
       "characterName": "Maya",
       "stageText": "NorthTec just sent us a contract request. They want a security audit focused on information that is already exposed online. No breaking in, no touching their systems directly. We are checking what an attacker could learn before an attack even starts.",
@@ -99,7 +99,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q02_STAGE_02",
       "characterName": "Maya",
       "stageText": "For this part, I want to use Google Dorking. It sounds flashy, but the idea is simple: advanced search operators can reveal documents, pages, repositories, or credentials that should never have been public.",
@@ -129,7 +129,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q02_STAGE_05",
       "characterName": "Maya",
       "stageText": "I ran a careful search using advanced operators. The result is bad: there are references to a public repository containing NorthTec employee emails and password-like entries. I am not opening or testing any accounts. Just confirming exposure is enough.",
@@ -203,14 +203,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q02_STAGE_10",
       "characterName": "Maya",
       "stageText": "The report is ready: exposed credentials found, public repository risk confirmed, immediate password resets recommended, and stronger account protection advised. NorthTec has a problem, but now they know how to start fixing it.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q03_STAGE_01",
       "characterName": "Maya",
       "stageText": "We just got a message from NexaCore. Their security team noticed a suspicious access log connected to something called Q4NexList. They think it might be a client list, but they are not sure if it ever left the company.",
@@ -227,7 +227,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q03_STAGE_02",
       "characterName": "Maya",
       "stageText": "This is different from the NorthTec job. We are not hunting for exposed passwords this time. We are trying to confirm whether a specific internal file became visible outside the company.",
@@ -257,7 +257,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q03_STAGE_05",
       "characterName": "Maya",
       "stageText": "The search result is worse than I hoped. I found a public image result that appears to show NexaCore’s client list. I am not downloading it or sharing it. I only need enough evidence to confirm that the leak exists.",
@@ -333,14 +333,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q03_STAGE_10",
       "characterName": "Maya",
       "stageText": "The case is now documented: Q4NexList appears to be exposed as a public image, NexaCore has been notified, and the next step is containment. This is how search engine investigation should work: find the risk, limit harm, and report responsibly.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q04_STAGE_01",
       "characterName": "Maya",
       "stageText": "We have a new case from dataSequence. Their CEO, George Wilkerson, was impersonated online so convincingly that people believed the fake posts. The company’s stock took a hit before they could correct the story.",
@@ -357,14 +357,14 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q04_STAGE_02",
       "characterName": "Maya",
       "stageText": "This one needs a careful OSINT approach. I’m bringing in someone from dataSequence’s forensics team. His name is Ravi, and he has been tracking the impersonation from the company side.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q04_STAGE_03",
       "characterName": "Ravi",
       "stageText": "Maya told me you are good at following the trail without crossing the line. I need your help figuring out how someone learned enough about George Wilkerson to sound like him online.",
@@ -394,7 +394,7 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q04_STAGE_06",
       "characterName": "Ravi",
       "stageText": "I found something in a lesser-known article. The journalist mentioned one of George’s close friends by full name: Eli Masters. That name stands out because it is specific, personal, and easy to search.",
@@ -417,7 +417,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q04_STAGE_08",
       "characterName": "Ravi",
       "stageText": "The OSINT trail is clearer now. Eli has public social media profiles, and one tagged photo connects George with close friends and family. From there, an attacker could map relationships, events, travel moments, and personal details.",
@@ -493,14 +493,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q04_STAGE_13",
       "characterName": "Maya",
       "stageText": "Case summary: the attacker likely used public articles, people-search tools, and tagged social media posts to build a believable fake identity. dataSequence now has a plan: clean up the CEO’s digital footprint, tighten privacy around close contacts, and verify official channels before another fake post causes damage.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q05_STAGE_01",
       "characterName": "Maya",
       "stageText": "We have a new freelance request from BikeForge Games, a small indie studio. Their website has been acting strangely: slow loading, connection failures, and occasional security warnings. That sounds like something is wrong near the domain or DNS layer.",
@@ -517,14 +517,14 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q05_STAGE_02",
       "characterName": "Maya",
       "stageText": "I’m adding Lena from BikeForge to the chat. She is their technical producer, and she has been coordinating the outage reports from players.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_lena",
+      "characterSpriteId": "npc_f_05",
       "id": "U01Q05_STAGE_03",
       "characterName": "Lena",
       "stageText": "Thanks for joining. We are a small team, so we do not have a full security department. Players say our site sometimes fails to load, and a few reported weird security warnings. We need to know if someone changed something around our domain.",
@@ -554,7 +554,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_lena",
+      "characterSpriteId": "npc_f_05",
       "id": "U01Q05_STAGE_06",
       "characterName": "Lena",
       "stageText": "The DIG results show our normal BikeForge name servers, but there is also one I do not recognize: duck451.net. That is definitely not part of our setup.",
@@ -649,14 +649,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q05_STAGE_12",
       "characterName": "Maya",
       "stageText": "Case summary: BikeForge’s outages were likely connected to an unauthorized name server. By checking DNS with DIG and recommending DNSSEC plus registrar lock, we helped them protect players before the issue got worse.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q06_STAGE_01",
       "characterName": "Maya",
       "stageText": "We have a different kind of request today. A cybersecurity journalist wants to write about how much public information can be collected automatically. This is not about stealing private data. It is about showing how exposure happens when information is already public.",
@@ -673,14 +673,14 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q06_STAGE_02",
       "characterName": "Maya",
       "stageText": "I’m adding Charisse Morgangood to the chat. She is the journalist who contacted us, and she volunteered her own public footprint for the demonstration.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_charisse",
+      "characterSpriteId": "npc_f_02",
       "id": "U01Q06_STAGE_03",
       "characterName": "Charisse",
       "stageText": "Thanks for helping with this. I want readers to understand that public data can still create risk when it is collected at scale. Use my name for the web spidering test, but please keep the results limited and respectful.",
@@ -710,7 +710,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q06_STAGE_06",
       "characterName": "Maya",
       "stageText": "The crawler finished. It found 75 public references connected to Charisse’s name. That number is the important lesson: even harmless public fragments can become revealing when collected together.",
@@ -779,14 +779,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q06_STAGE_11",
       "characterName": "Maya",
       "stageText": "Case summary: we used web spidering on volunteered public data, found 75 public references, avoided spreading the results, and helped Charisse explain why organizations and individuals should manage what crawlers can index.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q07_STAGE_01",
       "characterName": "Maya",
       "stageText": "SquareByte just hired us for a domain-focused security assessment. They are a security company, but they are short on staff, so they want an outside view of what their public footprint reveals.",
@@ -803,7 +803,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q07_STAGE_02",
       "characterName": "Ravi",
       "stageText": "I can help with this one. Tools like DNSdumpster can show what attackers may already see from the outside: domains, subdomains, DNS servers, IP addresses, hostnames, and sometimes location-related clues.",
@@ -833,7 +833,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q07_STAGE_05",
       "characterName": "Ravi",
       "stageText": "The DNSdumpster results are in. SquareByte has several visible subdomains, a few public-facing hosts, multiple DNS records, and some infrastructure that appears connected across different providers. That is enough to start building a risk profile.",
@@ -879,7 +879,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q07_STAGE_08",
       "characterName": "Maya",
       "stageText": "I grouped the findings into three areas: public web services, DNS infrastructure, and related hosts. The goal is not to scare SquareByte. The goal is to show what an attacker could map before trying anything else.",
@@ -932,14 +932,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q07_STAGE_12",
       "characterName": "Maya",
       "stageText": "Case summary: DNSdumpster showed SquareByte’s public domain footprint, Ravi helped us turn it into a network map, and we recommended cleanup, validation, and monitoring. The less accidental exposure they have, the harder it is for attackers to plan their next move.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q08_STAGE_01",
       "characterName": "Maya",
       "stageText": "ShadowTech hired us for a small reconnaissance job. They want to know what information about their domain is publicly visible before someone with worse intentions finds it first.",
@@ -956,7 +956,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q08_STAGE_02",
       "characterName": "Ravi",
       "stageText": "This is a good moment to use Whois. It can show domain registration details, dates, registrar information, nameserver data, and sometimes contact information that should have been protected.",
@@ -986,7 +986,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q08_STAGE_05",
       "characterName": "Maya",
       "stageText": "The Whois lookup for ShadowTech returned something important. The domain registration shows the name of a person connected to a project that was supposed to stay private.",
@@ -1078,21 +1078,21 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q08_STAGE_11",
       "characterName": "Maya",
       "stageText": "Case summary: the Whois lookup revealed public registrant information linked to a private ShadowTech project. We reported it, recommended domain privacy and registrar record review, and avoided turning a finding into a threat.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q09_STAGE_01",
       "characterName": "Maya",
       "stageText": "CodeTide Solutions just contacted us about a ransomware threat sent by email. They do not want us to reply to it or engage with the sender. They want us to examine the message and figure out what the headers can tell us.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q09_STAGE_02",
       "characterName": "Ravi",
       "stageText": "Email headers can contain routing paths, sender information, recipient details, timestamps, subject data, and server hops. They are messy, but they often show how a message traveled before it reached the inbox.",
@@ -1122,7 +1122,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q09_STAGE_05",
       "characterName": "Maya",
       "stageText": "I copied the full header into the tracing tool. The route shows several mail servers, but the final suspicious hop before delivery stands out: 198.51.100.42.",
@@ -1155,7 +1155,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q09_STAGE_08",
       "characterName": "Ravi",
       "stageText": "Next, I checked the Network Whois details for the IP. The registrant shown is Orion Transit Labs. That looks like an infrastructure provider, not a personal identity, so we should be careful with our wording.",
@@ -1247,14 +1247,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q09_STAGE_14",
       "characterName": "Maya",
       "stageText": "Case summary: CodeTide’s ransomware threat was analyzed through its email header. The suspicious final hop was 198.51.100.42, the network registrant was Orion Transit Labs, and the recommendation is to preserve evidence, block indicators, and continue incident response.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q10_STAGE_01",
       "characterName": "Maya",
       "stageText": "We have a lighter assignment today, but it still matters. A cybersecurity training academy hired us to run a safe demonstration for students. They want to understand how defenders map a network before they secure it.",
@@ -1271,7 +1271,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q10_STAGE_02",
       "characterName": "Ravi",
       "stageText": "The academy prepared an isolated test network, so this is fully authorized. We are not scanning a real company without permission. The goal is to show students how open ports can reveal which services are exposed.",
@@ -1301,7 +1301,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q10_STAGE_05",
       "characterName": "Maya",
       "stageText": "The scan results are ready. The students can see that some systems expose web services, one exposes a remote access service, and another has no visible open ports. That difference is exactly why mapping matters.",
@@ -1370,14 +1370,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q10_STAGE_10",
       "characterName": "Maya",
       "stageText": "Case summary: we demonstrated Nmap on an isolated academy test network, showed how open ports reveal exposed services, and explained why defenders monitor them. The students now understand both the technical value and the ethical boundary.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q11_STAGE_01",
       "characterName": "Maya",
       "stageText": "We are back at NorthTec, but this time we are not starting with logs or exposed credentials. You are visiting the local office when you overhear two employees, Susie and Juan, talking about strange emails that look like they came from executive staff.",
@@ -1394,7 +1394,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q11_STAGE_02",
       "characterName": "Maya",
       "stageText": "That matters. If multiple employees are receiving similar messages, this may not be random spam. It could be the start of a social engineering campaign.",
@@ -1429,14 +1429,14 @@
       "stageType": 1
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q11_STAGE_04",
       "characterName": "Maya",
       "stageText": "Good call. I’m bringing in Iris, NorthTec’s SecOps lead. She needs to know what we heard before anyone clicks a dangerous link.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_iris",
+      "characterSpriteId": "npc_f_04",
       "id": "U01Q11_STAGE_05",
       "characterName": "Iris",
       "stageText": "Thanks for escalating this. We are already seeing a spike in suspicious emails through the IT help line. I am sending a company-wide warning now: do not click unexpected links, and verify the sender before trusting the message.",
@@ -1450,7 +1450,7 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q11_STAGE_07",
       "characterName": "Maya",
       "stageText": "Susie forwarded a copy of the suspicious email to the sandboxed laptop. It looks almost identical to a notification from a workplace networking site called UWork. That is exactly what makes social engineering dangerous.",
@@ -1472,7 +1472,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_iris",
+      "characterSpriteId": "npc_f_04",
       "id": "U01Q11_STAGE_09",
       "characterName": "Iris",
       "stageText": "The interviews helped. Susie and Juan both use UWork, and their public profiles show their names, roles, company, and work-style contact patterns. Their accounts were not compromised, and both say they use two-factor authentication.",
@@ -1493,7 +1493,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q11_STAGE_11",
       "characterName": "Maya",
       "stageText": "The pattern is starting to make sense. The suspicious message was sent to Susie’s work email, and the address format appears easy to infer from public information. If an attacker knows the format, they can scale the campaign across many employees.",
@@ -1544,7 +1544,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_iris",
+      "characterSpriteId": "npc_f_04",
       "id": "U01Q11_STAGE_14",
       "characterName": "Iris",
       "stageText": "Over the next few days, our team blocks several network probes and sees more suspicious emails. Your concern was valid. This looks like an early-stage APT attempt: reconnaissance, phishing, probing, and persistence planning.",
@@ -1597,14 +1597,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q11_STAGE_18",
       "characterName": "Maya",
       "stageText": "Case summary: NorthTec was targeted through public employee information and realistic phishing emails. Iris escalated the warning, the team monitored for probes, and the final recommendation is layered defense against a possible Advanced Persistent Threat.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q12_STAGE_01",
       "characterName": "Maya",
       "stageText": "We have a sensitive case today. A cybersecurity research group is investigating a hidden marketplace where someone claims to be selling illegally obtained credentials. I do not want us handling this alone, so I’m adding Noor to the chat.",
@@ -1621,7 +1621,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_noor",
+      "characterSpriteId": "npc_n_02",
       "id": "U01Q12_STAGE_02",
       "characterName": "Noor",
       "stageText": "Hi. I’m Noor, part of the research group monitoring credential leaks. Our goal is not to buy stolen data or engage in crime. We need to observe, document, and understand whether this marketplace is connected to the leak we are tracking.",
@@ -1651,7 +1651,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_noor",
+      "characterSpriteId": "npc_n_02",
       "id": "U01Q12_STAGE_05",
       "characterName": "Noor",
       "stageText": "We are inside the research environment now. I found several marketplace discussions, but one name keeps appearing next to credential samples that match our case: NullMarket.",
@@ -1718,7 +1718,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_noor",
+      "characterSpriteId": "npc_n_02",
       "id": "U01Q12_STAGE_09",
       "characterName": "Noor",
       "stageText": "After monitoring the marketplace, we still do not know the seller’s real identity. But we do have useful evidence: the marketplace name, the credential claims, sample descriptions, timestamps, and the way the seller communicates.",
@@ -1755,14 +1755,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q12_STAGE_12",
       "characterName": "Maya",
       "stageText": "Case summary: Noor helped us investigate NullMarket, document possible credential trading activity, and prepare a report for authorities. This is the right boundary for dark web research: observe, preserve, report, and do not participate.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q13_STAGE_01",
       "characterName": "Maya",
       "stageText": "ByteSystems just hired us after their analysts noticed unusual spikes in network traffic. They suspect an unauthorized user may have accessed internal servers and quietly pulled sensitive files.",
@@ -1779,7 +1779,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_noor",
+      "characterSpriteId": "npc_n_02",
       "id": "U01Q13_STAGE_02",
       "characterName": "Noor",
       "stageText": "Packet sniffing can be dangerous in the wrong hands, but in an authorized investigation it helps defenders understand what is moving across a network. We are looking for signs of leaked files, not collecting private data for ourselves.",
@@ -1793,7 +1793,7 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_noor",
+      "characterSpriteId": "npc_n_02",
       "id": "U01Q13_STAGE_04",
       "characterName": "Noor",
       "stageText": "The packet capture is filtered to ByteSystems-approved traffic. I’m seeing repeated references to one file name: ByteSystems_FallProductLaunch. That looks far more sensitive than ordinary background traffic.",
@@ -1839,7 +1839,7 @@
       "stageType": 1
     },
     {
-      "characterSpriteId": "npc_noor",
+      "characterSpriteId": "npc_n_02",
       "id": "U01Q13_STAGE_07",
       "characterName": "Noor",
       "stageText": "ByteSystems IT confirmed that ByteSystems_FallProductLaunch should never have appeared in that traffic pattern. They are escalating this through their chain of command and checking which systems touched the file.",
@@ -1885,7 +1885,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q13_STAGE_10",
       "characterName": "Maya",
       "stageText": "While the training plan is being prepared, the ByteSystems CEO receives a ransom email. The attacker claims they will release the fall product line early unless ByteSystems pays three million.",
@@ -1938,14 +1938,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q13_STAGE_14",
       "characterName": "Maya",
       "stageText": "Case summary: authorized packet analysis revealed that ByteSystems_FallProductLaunch may have been exposed. ByteSystems was warned, employee training and encryption were recommended, and the ransom email was escalated as an incident response matter.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q14_STAGE_01",
       "characterName": "Maya",
       "stageText": "CipherDefense just called us in. Their last quarter financial information was leaked, even though they have strong digital security, cameras, and employee training. That tells me we should not assume this started with a network breach.",
@@ -1962,14 +1962,14 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q14_STAGE_02",
       "characterName": "Maya",
       "stageText": "I’m adding Marcus to the chat. He manages physical security at CipherDefense and can help us look at what happens inside the office, not just inside the systems.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_marcus",
+      "characterSpriteId": "npc_n_03",
       "id": "U01Q14_STAGE_03",
       "characterName": "Marcus",
       "stageText": "Thanks for joining. The finance leak surprised us because our systems did not show an obvious compromise. If the documents left the building some other way, we need to find that gap quickly.",
@@ -1999,7 +1999,7 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_marcus",
+      "characterSpriteId": "npc_n_03",
       "id": "U01Q14_STAGE_06",
       "characterName": "Marcus",
       "stageText": "I reviewed the finance department footage with you. Several employees use the shredders, but a few put printed financial documents straight into normal trash bins. That may explain how the information left the office.",
@@ -2045,7 +2045,7 @@
       "stageType": 1
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q14_STAGE_09",
       "characterName": "Maya",
       "stageText": "The finance team has started using shredders consistently, but this cannot stay limited to one department. If paper documents are mishandled anywhere else, CipherDefense could face the same problem again.",
@@ -2114,14 +2114,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q14_STAGE_14",
       "characterName": "Maya",
       "stageText": "Case summary: CipherDefense’s financial leak likely came from poor disposal of printed documents. Marcus helped us confirm the pattern, and the final plan includes immediate shredding, employee training, reduced paper use, and stronger awareness of physical information risks.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q15_STAGE_01",
       "characterName": "Maya",
       "stageText": "GreenNet just reached out in panic. It is a tiny homegrown company run by two founders selling their homemade video game through a locally hosted website. Their accounts keep getting hacked, and it is starting to hurt sales.",
@@ -2138,7 +2138,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_marcus",
+      "characterSpriteId": "npc_n_03",
       "id": "U01Q15_STAGE_02",
       "characterName": "Marcus",
       "stageText": "This sounds like a small team with a website that grew faster than their security process. If attackers keep getting into accounts, we should check whether the site accidentally exposes something sensitive.",
@@ -2168,7 +2168,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_marcus",
+      "characterSpriteId": "npc_n_03",
       "id": "U01Q15_STAGE_05",
       "characterName": "Marcus",
       "stageText": "The offline copy is ready. Most of the site is simple product pages, screenshots, and store information. But one old configuration file should not have been included in the public directory.",
@@ -2213,7 +2213,7 @@
       "stageType": 1
     },
     {
-      "characterSpriteId": "npc_marcus",
+      "characterSpriteId": "npc_n_03",
       "id": "U01Q15_STAGE_08",
       "characterName": "Marcus",
       "stageText": "GreenNet confirmed the file was accidentally left behind after a rushed website update. The credentials are real, and the attackers may have found them by mirroring or scraping the site.",
@@ -2266,14 +2266,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q15_STAGE_12",
       "characterName": "Maya",
       "stageText": "Case summary: GreenNet’s repeated account compromise was likely caused by exposed login credentials inside a public website file. We reported the issue, recommended credential rotation, and helped the founders clean up their deployment process.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q16_STAGE_01",
       "characterName": "Maya",
       "stageText": "We have a private client this time. He received an email that looks like it came from Summit Trust Bank, but something feels off. The headers did not give us enough confidence, so we need to investigate the domain behind the message.",
@@ -2290,14 +2290,14 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q16_STAGE_02",
       "characterName": "Maya",
       "stageText": "I’m adding Victor Hale to the chat. He is the client who received the suspicious email. He is not technical, so we need to explain our findings clearly and avoid jumping to conclusions.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_victor",
+      "characterSpriteId": "npc_m_03",
       "id": "U01Q16_STAGE_03",
       "characterName": "Victor",
       "stageText": "Thanks for looking into this. The email says it is from Summit Trust Bank and asks me to confirm account activity. I did not click anything, but I need to know if the sender is legitimate.",
@@ -2327,7 +2327,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q16_STAGE_06",
       "characterName": "Maya",
       "stageText": "The domain lookup results are suspicious. The organization address behind summit-trust-secure.com does not match Summit Trust Bank’s known business information. It appears to be registered through a generic hosting provider with no clear connection to the bank.",
@@ -2350,7 +2350,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q16_STAGE_08",
       "characterName": "Maya",
       "stageText": "Now we need a clean comparison. I checked the real Summit Trust Bank domain: summittrustbank.com. Its host information, organization details, and domain pattern are different from the address used in Victor’s email.",
@@ -2417,14 +2417,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q16_STAGE_13",
       "characterName": "Maya",
       "stageText": "Case summary: Victor’s suspicious email used summit-trust-secure.com, while the real bank domain was summittrustbank.com. The domain details did not match, so we advised Victor to avoid the link, report the message through official bank channels, and treat it as phishing.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q18_STAGE_01",
       "characterName": "Maya",
       "stageText": "Neon Vault just announced a high-stakes bug bounty program. They are inviting researchers to test their defenses like real attackers would, but only inside the program rules. This could be a good challenge for us.",
@@ -2441,7 +2441,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_noor",
+      "characterSpriteId": "npc_n_02",
       "id": "U01Q18_STAGE_02",
       "characterName": "Noor",
       "stageText": "Bug bounties are all about scope. We can use OSINT, public information, and approved testing paths, but we cannot jump straight into exploitation or harass employees. The first step should be quiet reconnaissance.",
@@ -2471,7 +2471,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q18_STAGE_05",
       "characterName": "Maya",
       "stageText": "I found a lead developer connected to Neon Vault: Brandon Greeves. His public HitGub profile links to a document that looks like an old website planning PDF. It may be harmless, but public files can carry useful clues.",
@@ -2515,7 +2515,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_noor",
+      "characterSpriteId": "npc_n_02",
       "id": "U01Q18_STAGE_08",
       "characterName": "Noor",
       "stageText": "The metadata and document contents pointed us toward Neon Vault’s public website structure. We did not exploit anything, but the clues helped us know where to look during approved inspection.",
@@ -2584,14 +2584,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q18_STAGE_13",
       "characterName": "Maya",
       "stageText": "Case summary: Neon Vault’s bug bounty led us through public repository review, a developer profile, PDF metadata, and approved website inspection. The final finding was API misconfigurations, reported responsibly through the bounty program.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q19_STAGE_01",
       "characterName": "Maya",
       "stageText": "SecureForce hired us to help with a social engineering risk assessment for their client, TechNova. The goal is to find out what attackers could learn from public employee footprints before anyone uses that information maliciously.",
@@ -2608,14 +2608,14 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_noor",
+      "characterSpriteId": "npc_n_02",
       "id": "U01Q19_STAGE_02",
       "characterName": "Noor",
       "stageText": "This fits the pattern we have seen before: public information, personal accounts, and believable messages can become dangerous when combined. We need to stay focused on defensive discovery and avoid collecting unnecessary personal details.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q19_STAGE_03",
       "characterName": "Maya",
       "stageText": "SecureForce gave us a small approved target list from TechNova. One name stands out because of the role attached to it: Brian Simpson, the CEO. If his footprint is exposed, attackers may use it to target him or people around him.",
@@ -2661,7 +2661,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q19_STAGE_07",
       "characterName": "Maya",
       "stageText": "The returned URLs include public personal profiles connected to Brian Simpson. Some of them reveal ways to message him directly, and others expose details about his family connections and public activity.",
@@ -2768,14 +2768,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q19_STAGE_14",
       "characterName": "Maya",
       "stageText": "Case summary: SecureForce asked us to assess TechNova’s social engineering exposure. A Sherlock-style search identified public URLs connected to CEO Brian Simpson, including personal profile risks. We recommended privacy review, profile verification, and spear phishing awareness training.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q20_STAGE_01",
       "characterName": "Maya",
       "stageText": "NovaSolutions hired us because their infrastructure has been getting suspicious traffic spikes. They are worried someone may be mapping their public systems before attempting something bigger.",
@@ -2792,7 +2792,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q20_STAGE_02",
       "characterName": "Ravi",
       "stageText": "This is a good case for DNS reconnaissance. We can start with nslookup to check what public DNS information is available about NovaSolutions, including IP addresses and authoritative name servers.",
@@ -2822,7 +2822,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q20_STAGE_05",
       "characterName": "Maya",
       "stageText": "The command prompt results show NovaSolutions.com resolving to a public IP address, and the authoritative name servers are visible too. That is normal, but it gives us a starting point for the network map.",
@@ -2868,7 +2868,7 @@
       "stageType": 1
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q20_STAGE_08",
       "characterName": "Ravi",
       "stageText": "The network map is taking shape. It shows the domain, the public IP address, the name servers, and the likely entry points that should be monitored during the traffic spike investigation.",
@@ -2937,14 +2937,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q20_STAGE_13",
       "characterName": "Maya",
       "stageText": "Case summary: NovaSolutions had suspicious traffic spikes, so we used nslookup to gather public DNS information, built a small network map, reviewed zone transfer risk, and recommended DNS hardening and monitoring.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q21_STAGE_01",
       "characterName": "Maya",
       "stageText": "We have a practice session today, not a client emergency. ShadowTrace is running a CTF challenge where we need to map a simulated target network using tracert. It is a safe environment, so we can focus on learning.",
@@ -2961,7 +2961,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q21_STAGE_02",
       "characterName": "Ravi",
       "stageText": "tracert shows the path packets take across a network. Each hop can reveal something about routing, latency, topology, and sometimes where filtering or firewalls might be affecting traffic.",
@@ -2991,7 +2991,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q21_STAGE_05",
       "characterName": "Maya",
       "stageText": "The command prompt is ready. I ran tracert against www.ctf.shadowtrace.net. The route completed after 9 hops, ending at the simulated CTF target.",
@@ -3014,7 +3014,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q21_STAGE_07",
       "characterName": "Ravi",
       "stageText": "Now I want to compare the result using traceroute in the Parrot Security environment. Different tools can present similar routing information in slightly different ways, which is useful when building confidence in the result.",
@@ -3106,14 +3106,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q21_STAGE_13",
       "characterName": "Maya",
       "stageText": "Practice summary: we used tracert and traceroute in a safe CTF environment, counted 9 hops, recorded the final target IP as 203.0.113.77, and submitted a simple network map note. This will help when we need to understand real routing paths during authorized investigations.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q22_STAGE_01",
       "characterName": "Maya",
       "stageText": "DigitDesigns just hired us for a quiet investigation. Their internal logs show access from remote locations at strange times. They are worried someone may be watching their systems from inside the network.",
@@ -3130,7 +3130,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_iris",
+      "characterSpriteId": "npc_f_04",
       "id": "U01Q22_STAGE_02",
       "characterName": "Iris",
       "stageText": "This kind of case needs discipline. We cannot accuse a competitor, shut everything down, or jump to conclusions. We need to follow the evidence and understand what the logs are telling us.",
@@ -3160,7 +3160,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_iris",
+      "characterSpriteId": "npc_f_04",
       "id": "U01Q22_STAGE_05",
       "characterName": "Iris",
       "stageText": "The log review shows a pattern: low-volume access, repeated checks of internal folders, and activity that avoids normal working hours. It looks less like a smash-and-grab attack and more like quiet reconnaissance.",
@@ -3252,14 +3252,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q22_STAGE_11",
       "characterName": "Maya",
       "stageText": "Case summary: DigitDesigns showed suspicious remote log access, the pattern suggested quiet internal reconnaissance, and Iris helped us frame it as a possible early-stage Advanced Persistent Threat. The next step is containment, monitoring, and careful evidence preservation.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q23_STAGE_01",
       "characterName": "Maya",
       "stageText": "Arcadia Robotics just hired us. They build next-generation automation systems, and lately their network has been behaving strangely. They are worried someone may already be studying them from the outside, or worse, quietly inside their systems.",
@@ -3276,14 +3276,14 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q23_STAGE_02",
       "characterName": "Maya",
       "stageText": "I’m adding Elena to the chat. She leads security at Arcadia Robotics, and she has been tracking the strange activity from their side.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_elena",
+      "characterSpriteId": "npc_f_03",
       "id": "U01Q23_STAGE_03",
       "characterName": "Elena",
       "stageText": "Thanks for joining. We have not confirmed a breach yet, but the signs worry me: odd system behavior, suspicious domain activity, and public information about our teams that may be too easy to collect.",
@@ -3313,7 +3313,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_elena",
+      "characterSpriteId": "npc_f_03",
       "id": "U01Q23_STAGE_06",
       "characterName": "Elena",
       "stageText": "I checked our external records and found something suspicious: a domain created about a week ago that looks very similar to one of Arcadia Robotics’ real domains. It is close enough that an employee might not notice the difference.",
@@ -3357,7 +3357,7 @@
       "stageType": 1
     },
     {
-      "characterSpriteId": "npc_elena",
+      "characterSpriteId": "npc_f_03",
       "id": "U01Q23_STAGE_09",
       "characterName": "Elena",
       "stageText": "The public information review is also concerning. Job posts, employee profiles, developer comments, and old project references give away more about our tools and teams than I expected.",
@@ -3431,14 +3431,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q23_STAGE_14",
       "characterName": "Maya",
       "stageText": "Case summary: Arcadia Robotics showed signs of possible APT reconnaissance. Elena helped us confirm a suspicious look-alike domain, review public exposure, and recommend OSINT monitoring, employee warnings, domain monitoring, and stronger layered defenses.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q24_STAGE_01",
       "characterName": "Maya",
       "stageText": "BoxCom just hired us to help one of their clients. The client noticed mysterious devices appearing in their network inventory, and nobody is sure whether they are legitimate, forgotten, or exposed to the internet.",
@@ -3455,7 +3455,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_elena",
+      "characterSpriteId": "npc_f_03",
       "id": "U01Q24_STAGE_02",
       "characterName": "Elena",
       "stageText": "This is a good moment to use a Shodan-style investigation. Unlike a normal search engine, Shodan focuses on internet-connected devices and exposed services. That makes it useful for finding devices that should not be publicly visible.",
@@ -3485,7 +3485,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q24_STAGE_05",
       "characterName": "Maya",
       "stageText": "The BoxCom search results are in. Most services look expected, but one device stands out: an exposed IP camera gateway labeled CamBridge-17. BoxCom does not recognize it as part of the approved client inventory.",
@@ -3593,14 +3593,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q24_STAGE_12",
       "characterName": "Maya",
       "stageText": "Case summary: BoxCom’s client had a mysterious exposed device, CamBridge-17, visible through a Shodan-style search. We recommended disabling unnecessary remote access, closing unused ports, verifying ownership, updating firmware, and monitoring for future exposure.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q25_STAGE_01",
       "characterName": "Maya",
       "stageText": "Charisse is back with a new problem. Her independent journalism site, The Expose, has been behaving strangely. Some readers say her articles redirect to lookalike pages, phishing sites, or suspicious downloads.",
@@ -3617,7 +3617,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_charisse",
+      "characterSpriteId": "npc_f_02",
       "id": "U01Q25_STAGE_02",
       "characterName": "Charisse",
       "stageText": "I did not change the site, but readers keep sending me screenshots of pages that are not mine. I need to know whether someone is redirecting traffic or abusing my domain to target my audience.",
@@ -3647,7 +3647,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_charisse",
+      "characterSpriteId": "npc_f_02",
       "id": "U01Q25_STAGE_05",
       "characterName": "Charisse",
       "stageText": "The first header check is suspicious. The site returns a redirect response for some article links, and the Location header points to a lookalike domain that I do not control.",
@@ -3691,7 +3691,7 @@
       "stageType": 1
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q25_STAGE_08",
       "characterName": "Maya",
       "stageText": "The Header Grabber output is clear. The original article URL on theexpose.news is returning a Location header that points to expose-reader-login.net. That domain is not Charisse’s site.",
@@ -3760,14 +3760,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q25_STAGE_13",
       "characterName": "Maya",
       "stageText": "Case summary: The Expose was redirecting some article traffic through a suspicious Location header to expose-reader-login.net. We used header analysis to confirm the redirect, documented the chain, and recommended cleanup, credential rotation, configuration review, and reader warnings.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q26_STAGE_01",
       "characterName": "Maya",
       "stageText": "GoalPost, a local newspaper agency, just hired us. They suspect a rival publication somehow knows their upcoming story angles and keeps publishing very similar pieces shortly after they do.",
@@ -3784,14 +3784,14 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q26_STAGE_02",
       "characterName": "Maya",
       "stageText": "I’m adding Priya to the chat. She is one of GoalPost’s editors, and she has been tracking the pattern between their unpublished plans and the rival’s articles.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_priya",
+      "characterSpriteId": "npc_f_01",
       "id": "U01Q26_STAGE_03",
       "characterName": "Priya",
       "stageText": "Thanks for helping. We do not think someone is breaking into our newsroom directly, but something is leaking. Draft angles that should be confidential keep showing up elsewhere. We need to know what outsiders can see.",
@@ -3821,7 +3821,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_priya",
+      "characterSpriteId": "npc_f_01",
       "id": "U01Q26_STAGE_06",
       "characterName": "Priya",
       "stageText": "The archived snapshots show the problem. An old version of GoalPost.net exposed confidential unpublished story notes because of a poor website setup. Even though those pages were removed later, the archived copies still exist.",
@@ -3932,14 +3932,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q26_STAGE_13",
       "characterName": "Maya",
       "stageText": "Case summary: GoalPost’s unpublished story angles were exposed through archived snapshots of an old website setup. We identified the sensitive archived content, recommended removal requests, and helped Priya build a safer publishing workflow.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q27_STAGE_01",
       "characterName": "Maya",
       "stageText": "SecureFund just hired us. They are a young financial startup, and their employees are receiving very specific phishing emails. These messages mention real names, projects, and even schedules. That means someone did reconnaissance first.",
@@ -3956,14 +3956,14 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q27_STAGE_02",
       "characterName": "Maya",
       "stageText": "I’m adding Daniel to the chat. He leads operations at SecureFund and has been collecting reports from employees who received the targeted messages.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_daniel",
+      "characterSpriteId": "npc_m_02",
       "id": "U01Q27_STAGE_03",
       "characterName": "Daniel",
       "stageText": "Thanks for helping. These emails do not look random. They mention our team members, meetings, and project names. People are worried because the attackers sound like they know us.",
@@ -3993,7 +3993,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q27_STAGE_06",
       "characterName": "Maya",
       "stageText": "I checked one of the forwarded emails in the sandbox. The sender domain is not SecureFund’s real domain, but it is close enough to fool someone rushing through their inbox.",
@@ -4053,7 +4053,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_daniel",
+      "characterSpriteId": "npc_m_02",
       "id": "U01Q27_STAGE_10",
       "characterName": "Daniel",
       "stageText": "The fake page copied our branding, but the URL was slightly wrong. That explains why some employees almost trusted it. The page looked familiar, but the domain gave it away.",
@@ -4143,14 +4143,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q27_STAGE_16",
       "characterName": "Maya",
       "stageText": "Case summary: SecureFund was targeted by a phishing campaign built from public employee details. We confirmed a look-alike domain, identified fake-page warning signs, checked Whois red flags, and recommended employee exposure reduction plus stronger email authentication.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q28_STAGE_01",
       "characterName": "Maya",
       "stageText": "We are not on a formal job today. You just stopped at a coffee shop, but security habits do not disappear outside the office. I can already see something risky near the counter.",
@@ -4167,7 +4167,7 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q28_STAGE_02",
       "characterName": "Maya",
       "stageText": "A staff member is on break with a laptop open. They are logging into what looks like the store’s internal page, and the screen is fully visible from the public seating area. Anyone nearby could watch what they type.",
@@ -4234,7 +4234,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q28_STAGE_07",
       "characterName": "Maya",
       "stageText": "The employee closes the laptop and thanks you. This was a small moment, but it shows how easily everyday behavior can create risk. A public place can become a reconnaissance opportunity.",
@@ -4303,14 +4303,14 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q28_STAGE_12",
       "characterName": "Maya",
       "stageText": "Case summary: a simple coffee shop moment showed how shoulder surfing can expose credentials, payment details, emails, badge activity, and other sensitive information. The defense is awareness, privacy, and refusing to treat public visibility as harmless.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q29_STAGE_01",
       "characterName": "Maya",
       "stageText": "This is the last case in our first run of reconnaissance work. Sentinel Global, a cybersecurity firm, is investigating disruptions inside a private lab network. They want us to help confirm whether someone is quietly mapping their systems.",
@@ -4327,14 +4327,14 @@
       "stageType": 4
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q29_STAGE_02",
       "characterName": "Maya",
       "stageText": "I’m adding Selene to the chat. She is Sentinel Global’s lab network coordinator, and she has been watching the strange traffic patterns.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_selene",
+      "characterSpriteId": "npc_f_06",
       "id": "U01Q29_STAGE_03",
       "characterName": "Selene",
       "stageText": "Thanks for joining. We have not seen malware or stolen files, but something keeps tapping the edges of the lab network. It feels like someone is checking which systems are alive before deciding what to do next.",
@@ -4364,7 +4364,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q29_STAGE_06",
       "characterName": "Maya",
       "stageText": "The pattern is becoming clearer. The same source IP is repeating checks across the lab range, but it is not connecting to web, email, database, or remote access services yet.",
@@ -4468,7 +4468,7 @@
       "stageType": 2
     },
     {
-      "characterSpriteId": "npc_selene",
+      "characterSpriteId": "npc_f_06",
       "id": "U01Q29_STAGE_12",
       "characterName": "Selene",
       "stageText": "That gives us exactly what we needed. The lab team can now treat the traffic as early reconnaissance, tighten ICMP exposure, and prepare for possible follow-up port scans.",
@@ -4482,21 +4482,21 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_ravi",
+      "characterSpriteId": "npc_m_01",
       "id": "U01Q29_STAGE_14",
       "characterName": "Ravi",
       "stageText": "Looking back, this case ties everything together. DNS records, Whois data, headers, exposed devices, public profiles, archives, and now ICMP scans. Different clues, same lesson: attackers build a map before they strike.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_noor",
+      "characterSpriteId": "npc_n_02",
       "id": "U01Q29_STAGE_15",
       "characterName": "Noor",
       "stageText": "And the ethical line stayed clear. We observed, verified, documented, and reported. We did not exploit trust, steal data, buy credentials, or turn findings into leverage.",
       "stageType": 0
     },
     {
-      "characterSpriteId": "npc_iris",
+      "characterSpriteId": "npc_f_04",
       "id": "U01Q29_STAGE_16",
       "characterName": "Iris",
       "stageText": "That is what separates a defender from a threat actor. The tools are only part of the story. The judgment behind using them matters more.",
@@ -4510,7 +4510,7 @@
       "stageType": 3
     },
     {
-      "characterSpriteId": "npc_maya",
+      "characterSpriteId": "npc_n_01",
       "id": "U01Q29_STAGE_18",
       "characterName": "Maya",
       "stageText": "Sentinel Global is secure for now, and this chapter is complete. We started by reading simple logs, and now you are spotting the shape of an attack before it fully forms. Take the win. The next threat will not wait, but neither will we.",
@@ -4928,6 +4928,203 @@
       "moneyReward": 30,
       "honorReward": 5,
       "legendReward": 0,
+      "decisions": []
+    },
+    {
+      "id": "POI_SUBDOMAIN_DRIFT",
+      "title": "Forgotten Subdomain",
+      "description": "A public DNS lookup reveals an old staging subdomain that still points to a cloud host. It is not a breach, but it shows why recon often starts with inventory.",
+      "latitude": 52.3676,
+      "longitude": 4.9041,
+      "showAtProgressPercent": 18,
+      "moneyReward": 45,
+      "honorReward": 5,
+      "legendReward": 0,
+      "decisions": []
+    },
+    {
+      "id": "POI_EXPOSED_JOB_POSTING",
+      "title": "Too-Detailed Job Posting",
+      "description": "A hiring page lists exact security tools, cloud regions, and internal team names. Public information can help defenders assess exposure, but it can also help attackers prepare.",
+      "latitude": 1.3521,
+      "longitude": 103.8198,
+      "showAtProgressPercent": 24,
+      "moneyReward": 0,
+      "honorReward": 0,
+      "legendReward": 0,
+      "decisions": [
+        {
+          "optionText": "Recommend trimming sensitive infrastructure details from the public posting.",
+          "moneyReward": 90,
+          "honorReward": 10,
+          "legendReward": 5
+        },
+        {
+          "optionText": "Copy the details into a public thread for other researchers.",
+          "moneyReward": 60,
+          "honorReward": -10,
+          "legendReward": 0
+        }
+      ]
+    },
+    {
+      "id": "POI_HEADER_FINGERPRINT",
+      "title": "Verbose Server Header",
+      "description": "A public test site returns a detailed server header with software names and versions. The lesson is simple: metadata can narrow an attacker's research.",
+      "latitude": 37.5665,
+      "longitude": 126.978,
+      "showAtProgressPercent": 31,
+      "moneyReward": 50,
+      "honorReward": 5,
+      "legendReward": 0,
+      "decisions": []
+    },
+    {
+      "id": "POI_PUBLIC_REPO_NOTE",
+      "title": "Repository Breadcrumb",
+      "description": "A code repository does not expose secrets, but a README mentions internal project codenames and deployment habits. Even harmless notes can become useful recon clues.",
+      "latitude": 19.4326,
+      "longitude": -99.1332,
+      "showAtProgressPercent": 38,
+      "moneyReward": 0,
+      "honorReward": 0,
+      "legendReward": 0,
+      "decisions": [
+        {
+          "optionText": "Record the metadata risk and suggest a public repository review checklist.",
+          "moneyReward": 95,
+          "honorReward": 10,
+          "legendReward": 5
+        },
+        {
+          "optionText": "Search aggressively for private branches without authorization.",
+          "moneyReward": 30,
+          "honorReward": -15,
+          "legendReward": 0
+        }
+      ]
+    },
+    {
+      "id": "POI_SOCIAL_GRAPH_HINT",
+      "title": "Conference Photo Trail",
+      "description": "Tagged conference photos reveal department leads, vendor relationships, and project themes. OSINT works best when it is limited to what is needed and handled respectfully.",
+      "latitude": 59.3293,
+      "longitude": 18.0686,
+      "showAtProgressPercent": 47,
+      "moneyReward": 55,
+      "honorReward": 5,
+      "legendReward": 0,
+      "decisions": []
+    },
+    {
+      "id": "POI_EMAIL_PATTERN",
+      "title": "Email Pattern Guess",
+      "description": "A public speaker roster makes the company's email format easy to infer. That does not grant access, but it can support phishing recon if defenders ignore it.",
+      "latitude": 60.1699,
+      "longitude": 24.9384,
+      "showAtProgressPercent": 56,
+      "moneyReward": 0,
+      "honorReward": 0,
+      "legendReward": 0,
+      "decisions": [
+        {
+          "optionText": "Recommend anti-phishing controls and reduce unnecessary staff email exposure.",
+          "moneyReward": 100,
+          "honorReward": 12,
+          "legendReward": 5
+        },
+        {
+          "optionText": "Generate a staff contact list to test later without permission.",
+          "moneyReward": 40,
+          "honorReward": -20,
+          "legendReward": 0
+        }
+      ]
+    },
+    {
+      "id": "POI_ROUTE_TRACE_NOTE",
+      "title": "Visible Network Path",
+      "description": "A route trace shows several public hops before reaching a service. It does not prove a weakness by itself, but it helps sketch the visible network edge.",
+      "latitude": -34.6037,
+      "longitude": -58.3816,
+      "showAtProgressPercent": 64,
+      "moneyReward": 60,
+      "honorReward": 5,
+      "legendReward": 0,
+      "decisions": []
+    },
+    {
+      "id": "POI_PUBLIC_DEVICE_INDEX",
+      "title": "Indexed Device Banner",
+      "description": "A device search result displays a generic service banner for an internet-facing camera system. The ethical move is to verify ownership before making any claim.",
+      "latitude": -1.2921,
+      "longitude": 36.8219,
+      "showAtProgressPercent": 72,
+      "moneyReward": 0,
+      "honorReward": 0,
+      "legendReward": 0,
+      "decisions": [
+        {
+          "optionText": "Flag it as a possible exposure and request owner verification before deeper review.",
+          "moneyReward": 110,
+          "honorReward": 15,
+          "legendReward": 5
+        },
+        {
+          "optionText": "Try default passwords to see whether the camera is exposed.",
+          "moneyReward": 80,
+          "honorReward": -30,
+          "legendReward": 0
+        }
+      ]
+    },
+    {
+      "id": "POI_ARCHIVED_PRESS_KIT",
+      "title": "Archived Press Kit",
+      "description": "An archived press kit contains outdated office photos and team names. Historical web snapshots can preserve details long after a site changes.",
+      "latitude": 52.2297,
+      "longitude": 21.0122,
+      "showAtProgressPercent": 81,
+      "moneyReward": 65,
+      "honorReward": 5,
+      "legendReward": 0,
+      "decisions": []
+    },
+    {
+      "id": "POI_PUBLIC_WIFI_OBSERVATION",
+      "title": "Lobby Wi-Fi Names",
+      "description": "A visitor photo accidentally shows nearby Wi-Fi network names on a laptop screen. Physical-space details can become part of a recon picture too.",
+      "latitude": -33.9249,
+      "longitude": 18.4241,
+      "showAtProgressPercent": 89,
+      "moneyReward": 0,
+      "honorReward": 0,
+      "legendReward": 0,
+      "decisions": [
+        {
+          "optionText": "Note the exposure risk and recommend privacy-aware photo review before posting.",
+          "moneyReward": 105,
+          "honorReward": 12,
+          "legendReward": 5
+        },
+        {
+          "optionText": "Use the network names to plan an unauthorized wireless test.",
+          "moneyReward": 50,
+          "honorReward": -25,
+          "legendReward": 0
+        }
+      ]
+    },
+    {
+      "id": "POI_FINAL_RECON_REVIEW",
+      "title": "Recon Pattern Review",
+      "description": "Several small public clues line up: DNS records, headers, job posts, archives, and social media. None are dramatic alone, but together they form a useful defensive map.",
+      "latitude": 45.4642,
+      "longitude": 9.19,
+      "showAtProgressPercent": 96,
+      "moneyReward": 120,
+      "honorReward": 15,
+      "legendReward": 10,
       "decisions": []
     }
   ]
