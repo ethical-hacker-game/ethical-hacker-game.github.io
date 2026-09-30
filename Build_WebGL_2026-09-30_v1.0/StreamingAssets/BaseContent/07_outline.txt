@@ -1,0 +1,7 @@
+Quest #	Topic 
+Quest 1:	Footprinting 
+Quest 2:	Credential Hunting
+Quest 3:	Identifying Marketplaces
+Quest 4:	Threat Intelligence Gathering
+Quest 5: 	Cryptocurrency Transations 
+Quest 6:	Dark web forums

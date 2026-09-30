@@ -1,0 +1,30 @@
+Quest #	Topic	Quest Name
+Quest 1:	Mobile-based Social Engineering - Introduction 	U02Q01_Introduction
+Quest 2:	Mobile-based Social Engineering - SMS Smishing 	U02Q02_SMSSmishing
+Quest 3:	Mobile-based Social Engineering - Vishing (voice phishing)	U02Q3_Vishing
+Quest 4:	Mobile-based Social Engineering  - Social Media Impersonation 	U02Q04_SocialMediaInpersonation
+Quest 5: 	Mobile-based Social Engineering - Malicious Application 	U02Q05_MaliciousApplications
+Quest 6:	Mobile-based Social Engineering - SIM Swapping	U02Q06_SIMSwapping
+Quest 7:	Mobile-based Social Engineering - QR Code Phishing (Quishing) 	U02Q07_Quishing
+Quest 8:	Mobile-based Social Engineering - Fake Airdrop (Bluetooth Exploit)	U02Q08_BluetoothExploit
+Quest 9:	Mobile-based Social Engineering - Malicious Calendar Invite	U02Q09_MaliciousCalendarInvite
+Quest 10: 	Mobile-based Social Engineering - Fake Giveaway in Mobile Game	U02Q10_FakeGiveawayinMobileGame
+Quest 11:	Mobile-based Social Engineering - Fake VPN Application 	U02Q11_FakeVPN
+Quest 12:	Mobile-based Social Engineering  - Warranty Scam	U02Q12_WarrantyScam
+Quest 13:	Mobile-based Social Engineering.  -   Uploaded Geotagged Photo	U02Q13_GeotaggedPhoto
+Quest 14:	Mobile-based Social Engineering -  Repackaging of a Legitame Applicaition	U02Q14_LegitimateApp
+Quest 15:	Mobile-based Social Engineering       -       Fake Prize Mobile Spam	U02Q15_FakePrize
+Quest 16: 	Human Vulnerabilities - Curiosity 	U02Q16_Curiosity
+Quest 17:	Human Vulnerabilities - Fear 	U02Q17_Fear
+Quest 18: 	Human Vulnerabilities - Urgency	U02Q18_Urgency
+Quest 19: 	Human Vulnerabilities - Desire to belong	U02Q19_Belong
+Quest 20:	Human-Based Social Engineering -  Pretexting 	U02Q20_Pretexting
+Quest 21:	Human-Based Social Engineering -     Tailgating 	U02Q21_Tailgating
+Quest 22:	Human-Based Social Engineering -  Authority Impersonation 	U02Q22_AuthorityImpersonation
+Quest 23:	Human-Based Social Engineering -  Reverse Social Engineering 	U02Q23_ReverseSocialEngineering
+Quest 24:	Human-Based Social Engineering -    Piggybacking	U02Q24_Piggybacking
+Quest 25: 	Computer-Based Social Engineering  -  Romance Scam	U02Q25_RomanceScam
+Quest 26: 	Computer-Based Social Engineering - Instant Messaging Spam (Spimming) 	U02Q26_Spimming
+Quest 27:	Computer-Based Social Engineering     -    Pharming 	U02Q27_Pharming
+Quest 28:	Computer-Based Social Engineering - Hoax Chain Email	U02Q28_HoaxChainEmail
+Quest 29:	Computer-Based Social Engineering  - Scareware Security Solutions	U02Q29_Scareware

@@ -1,0 +1,29 @@
+Quest #	Topic
+Quest 1:	Fundamentals: Password Cracking Overview
+Quest 2:	Fundamentals: Password Complexity
+Quest 3:	Microsoft Authentication: SAM Database
+Quest 4:	Microsoft Authentication: NTLM
+Quest 5:	Microsoft Authentication: Kerberos
+Quest 6:	Attack Types: Non-Electronic Attacks
+Quest 7:	Attack Types: Active Online Attacks
+Quest 8:	Attack Types: Passive Online Attacks
+Quest 9:	Attack Types: Offline Attacks
+Quest 10:	Cracking Methods: Dictionary Attack
+Quest 11:	Cracking Methods: Brute-Force Attack
+Quest 12:	Cracking Methods: Rule-Based Attack
+Quest 13:	Cracking Methods: Hybrid Attack
+Quest 14:	Cracking Methods: Syllable Attack
+Quest 15:	Cracking Methods: Password Guessing
+Quest 16:	Cracking Methods: Default Passwords
+Quest 17:	Active Online Attacks: Trojans/Spyware/Keyloggers
+Quest 18:	Active Online Attacks: Hash Injection/Pass-the-Hash (PtH)
+Quest 19:	Active Online Attacks: LLMNR/NBT-NS Poisoning
+Quest 20:	Active Online Attacks: Pass the Ticket
+Quest 21:	Passive Online Attacks: Wire Sniffing
+Quest 22:	Passive Online Attacks: Man-in-the-Middle and Replay
+Quest 23:	Offline Attacks: Rainbow Table Attack
+Quest 24:	Password Cracking Tools: L0phtCrack
+Quest 25:	Password Cracking Tools: ophcrack
+Quest 26:	Password Cracking Tools: RainbowCrack
+Quest 27:	Password Cracking Tools: John the Ripper, hashcat, Hydra, Medusa
+Quest 28:	Countermeasures: Defending Against Password Cracking
