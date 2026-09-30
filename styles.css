@@ -187,10 +187,25 @@ body {
 }
 
 .footer-note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
   margin: 0;
   padding: 18px 24px 24px;
   border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 0.95rem;
   line-height: 1.5;
+}
+
+.footer-note p {
+  flex: 1 1 36rem;
+  margin: 0;
+}
+
+.repository-action {
+  flex: 0 0 auto;
+  width: fit-content;
+  max-width: 100%;
 }
