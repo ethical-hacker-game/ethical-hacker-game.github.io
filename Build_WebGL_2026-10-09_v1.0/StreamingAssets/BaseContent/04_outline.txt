@@ -1,0 +1,45 @@
+Quest #	Topic 	Quest Name
+Quest 1:	Network Atchitecture: Demilitarized Zone (DMZs)
+Quest 2:	Network Atchitecture: Network Segmentation 
+Quest 3:	Network Atchitecture: Network types
+Quest 4:	Network Atchitecture:  Addressing and Subnets
+Quest 5: 	Network Atchitecture: Network Address Translation (NAT)
+Quest 6:	Protocol Behavior: Common Protocols
+Quest 7:	Protocol Behavior: Attack Surfaces
+Quest 8:	Protocol Behavior: Port Scanning
+Quest 9:	Protocol Behavior: TCP vs UDP
+Quest 10: 	Protocol Behavior: ICMP 
+Quest 11:	Analysis: Packet Sniffing
+Quest 12:	Analysis: Protocol Anomalies
+Quest 13:	Analysis: Fragmentation and Reassembly
+Quest 14:	Analysis: Sequence Behavior 
+Quest 15:	Analysis: Traffic Flow
+Quest 16: 	Network Defense:  Firewalls
+Quest 17:	Network Defense: Tunneling
+Quest 18: 	Network Defense: Device Placement
+Quest 19: 	Network Defense: Attack Detection 
+Quest 20:	Network Defense: Attack Prevention 
+Quest 21:	Scanning Foundations: Network Scanning as Extended Reconnaissance
+Quest 22:	Scanning Foundations: Live/Active Host Discovery
+Quest 23:	Scanning Foundations: IP Address Identification
+Quest 24:	Scanning Foundations: Open Port Identification
+Quest 25: 	Scanning Foundations: Running Service Identification
+Quest 26:	Scanning Foundations: Linking Ports to Services
+Quest 27:	Scanning Foundations: Risky or Unnecessary Services
+Quest 28:	Scanning Foundations: Operating System Identification
+Quest 29:	Scanning Foundations: System Architecture Identification
+Quest 30:	Scanning Foundations: Entry Point Identification
+Quest 31:	Scanning Foundations: Potential Vulnerability Identification
+Quest 32: 	Types of Scanning: Port Scanning
+Quest 33:	Types of Scanning: Network Scanning
+Quest 34:	Types of Scanning: Vulnerability Scanning
+Quest 35:	Protocol Behavior: TCP/IP Communication
+Quest 36:	Protocol Behavior: TCP Flags
+Quest 37:	Protocol Behavior: SYN, ACK, FIN, and RST Responses
+Quest 38:	Packet Crafting: Creating Custom Packets
+Quest 39:	Packet Crafting: Testing Network Behavior
+Quest 40:	Scanning Environments: IPv4 vs. IPv6 Scanning
+Quest 41:	Firewall and IDS Evasion Concepts: Scanning Beyond Security Controls
+Quest 42:	Firewall and IDS Evasion Concepts: Fragmentation and Spoofing
+Quest 43:	Firewall and IDS Evasion Concepts: Proxies and Traceback Avoidance
+
