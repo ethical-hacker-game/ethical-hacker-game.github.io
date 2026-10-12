@@ -24,6 +24,10 @@
       "file": "05_vulnerability_analysis.json"
     },
     {
+      "name": "5. Vulnerability Analysis v2",
+      "file": "05_vulnerability_analysis_v2.json"
+    },
+    {
       "name": "6. Password Cracking",
       "file": "06_password.json"
     },
