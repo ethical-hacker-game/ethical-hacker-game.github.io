@@ -1,0 +1,27 @@
+Quest #	Topic 	Quest Name
+Quest 1:	Cloud Computing & IoT: Account Takeover & Credential stuffing	U03Q01_CredentialStuffing
+Quest 2:	Cloud Computing & IoT: Supply chain attacks	U03Q02_SupplyChain
+Quest 3:	Cloud Computing & IoT: Misconfigured Storage	U03Q03_MisconfiguredStorage
+Quest 4:	Cloud Computing & IoT: API Abuse and Relay Attacks	U03Q04_APIAbuseRelayAttack
+Quest 5: 	Cloud Computing & IoT: Cloud Logging	U03Q05_CloudLogging
+Quest 6:	IoT Security: Sniffing Device Traffic	U03Q06_SniffingDeviceTraffic
+Quest 7:	IoT Security: Local Access	U03Q07_LocalAccess
+Quest 8:	IoT Security: Firmware	U03Q08_Firmware
+Quest 9:	IoT Security: Sensor Data	U03Q09_SensorData
+Quest 10: 	IoT Security: Default Credentials 	U03Q10_DefaultCredentials
+Quest 11:	IoT Privacy: Data Exposure	U03Q11_DataExposure
+Quest 12:	IoT Privacy: Hijacking Camera Feeds	U03Q12_CameraFeeds
+Quest 13:	IoT Privacy: Passive Audio Capture (Voice Assistants)	U03Q13_AudioCaptureVoiceAssistant
+Quest 14:	IoT Privacy: Location Tracking with Beacon Leaks	U03Q14_BeaconLeaks
+Quest 15:	IoT Privacy: Hidden Data Retention on Devices 	U03Q15_DataRetention
+Quest 16: 	IoT Trojans	U03Q16_IoTTrojans
+Quest 17:	IoT Threat Detection: Ecosystem Anonmoly 	U03Q17_EcoAnomoly
+Quest 18: 	IoT Threat Detection: Malicious Devices	U03Q18_MaliciousDevice
+Quest 19: 	IoT Threat Detection: Command & Control Attempts 	U03Q19_CommandControlAttempts
+Quest 20:	IoT Threat Detection: Unusual Scheduling Patterns	U03Q20_SchedulingPatterns
+Quest 21:	IoT Threat Detection: Unauthorized Device on Network	U03Q21_UnauthorizedDeviceOnNetwork
+Quest 22:	IoT Defense: Whitelist Enforcement 	U03Q22_WhitelistEnforcement
+Quest 23:	IoT Defense: Logging	U03Q23_Logging
+Quest 24:	IoT Defense: Auto-Update Hardening	U03Q24_AutoUpdateHardening
+Quest 25: 	IoT Defense: Intrusion Detection	U03Q25_IntrusionDetection
+Quest 26: 	IoT Physical Vulnerabilities 	U03Q26_PhysicalVulnerabilties
