@@ -1,0 +1,21 @@
+Quest #	Topic 
+Quest 1:	Cloud-Based Threat Vectors: Malware Hosting and Distribution
+Quest 2:	Cloud-Based Threat Vectors: Cryptojacking Through Cloud Resources 
+Quest 3:	Cloud-Based Threat Vectors: Misconfiguration Exploits
+Quest 4:	Cloud-Based Threat Vectors: DoS Attacks Targeting Cloud Resources
+Quest 5: 	Cloud-Based Threat Vectors: Abuse of Cloud Identity Systems
+Quest 6:	Cloud Access Management: Misconfigured IAM Policies 
+Quest 7:	Cloud Access Management: Missing MFA for Administration Accounts
+Quest 8:	Cloud Access Management: Least Privilege Enforcement 
+Quest 9:	Cloud Access Management: Leaked API Keys and Access Tokens
+Quest 10: 	Cloud Access Management: Improper Role Delegation 
+Quest 11:	Cloud Privacy Risks: Insecure Storage and Data Exposure 
+Quest 12:	Cloud Privacy Risks: Third Party Data Sharing 
+Quest 13:	Cloud Privacy Risks: Poor Data Retention
+Quest 14:	Cloud Privacy Risks: Metadata Overexposure
+Quest 15:	Cloud Privacy Risks: Lack of Isolation in Multi-User Environments
+Quest 16: 	Insecure APIs and Interfaces: Lack of Authentification and Authorization Controls
+Quest 17:	Insecure APIs and Interfaces: Excessive Permissions 
+Quest 18: 	Insecure APIs and Interfaces: Insecure Transmission of Sensitive Data
+Quest 19: 	Insecure APIs and Interfaces: Input Sanitation
+Quest 20:	Insecure APIs and Interfaces: Exposed Development Endpoints
